@@ -2,8 +2,8 @@
 # Site Settings
 # -----------------------------------------------------------------------------
 
-name: Otilia Stretcu
-email: otiliastr@gmail.com
+name: Sheelabhadra Dey
+email: sheelabhadra@gmail.com
 
 # footer_text: >
 #   Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
@@ -16,12 +16,13 @@ baseurl:  # the subpath of your site, e.g. /blog/
 # -----------------------------------------------------------------------------
 # Social Integration
 # -----------------------------------------------------------------------------
-scholar_userid: UcT4CXoAAAAJ
-github_username: otiliastr
-linkedin_username: otiliastr
-facebook_username: otilia.stretcu
-twitter_username: otilia_stretcu
-contact_note: Feel free to drop me a line via e-mail.
+scholar_userid: D3EhoW0AAAAJ
+github_username: sheelabhadra
+linkedin_username: sheelabhadra
+# facebook_username: otilia.stretcu
+twitter_username: AgentOfSheelD
+instagram_username: sheel.dey
+# contact_note: Feel free to drop me a line via e-mail.
 
 
 #google_analytics: UA-54519238-1
@@ -84,7 +85,7 @@ plugins:
 
 # Jekyll-Scholar
 scholar:
-  last_name: Stretcu
+  last_name: Dey
   style: apa
   locale: en
   sort_by: year

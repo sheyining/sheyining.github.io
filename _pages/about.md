@@ -3,12 +3,12 @@ layout: page
 permalink: /
 title: about
 nav: about
-description: <a href="http://www.ml.cmu.edu/" class="page-description" target="_blank">Machine Learning Department</a> • <a href="http://www.cs.cmu.edu/" class="page-description" target="_blank">School of Computer Science</a> • <a href="http://www.cmu.edu/" class="page-description" target="_blank">Carnegie Mellon University</a>
-address: <a href="https://www.google.com/maps/place/Gates+Center+for+Computer+Science/@40.4432641,-79.9449469,19.18z/data=!4m5!3m4!1s0x8834f22175d2f3cf:0x963e80aba7fde2d0!8m2!3d40.4435476!4d-79.9446184" class="page-description" target="_blank">8227 Gates Hillman Center, 5000 Forbes Ave, Pittsburgh, PA 15213</a>
+description: <a href="http://faculty.cse.tamu.edu/guni/pistar/index.html" class="page-description" target="_blank">Pi Star AI and Optimization Lab</a> • <a href="https://engineering.tamu.edu/cse/index.html" class="page-description" target="_blank">Department of Computer Science and Engineering</a> • <a href="https://www.tamu.edu/" class="page-description" target="_blank">Texas A&M University</a>
+address: <a href="https://www.google.com/maps/place/Engineering+Activities+Building+C/@30.6152746,-96.3400254,17z/data=!4m12!1m6!3m5!1s0x86468390a7f39815:0xa8543fc19fb3b7a2!2sEngineering+Activities+Building+C!8m2!3d30.61527!4d-96.3378367!3m4!1s0x86468390a7f39815:0xa8543fc19fb3b7a2!8m2!3d30.61527!4d-96.3378367" class="page-description" target="_blank">Engineering Activities Building C, Room 107B, 588 Lamar St, College Station, TX 77840</a>
 ---
 
 <div class="col p-0 pt-4 pb-4">
-  <h1 class="pb-3 title text-left font-weight-bold">Otilia Stretcu</h1>
+  <h1 class="pb-3 title text-left font-weight-bold">Sheel Dey</h1>
   <h6 class="m-0 mb-2" style="font-size: 0.83em;">{{ page.description }}</h6>
   {% if page.address %}
       <h6 class="m-0 mb-2" style="font-size: 0.83em;">{{ page.address }}</h6>
@@ -24,24 +24,20 @@ address: <a href="https://www.google.com/maps/place/Gates+Center+for+Computer+Sc
         </div>
 
         <p>
-            I am a PhD student in the <a href="http://www.ml.cmu.edu/" target="_blank">Machine Learning Department</a> at <a href="http://www.cmu.edu/" target="_blank">Carnegie Mellon University</a>, co-advised by <a href="http://www.cs.cmu.edu/~tom/" target="_blank">Tom Mitchell</a> and <a href="http://www.cs.cmu.edu/~bapoczos/" target="_blank">Barnabàs Pòczos</a>.
+            I am a 1st-year computer science Ph.D. student at <a href="http://www.cmu.edu/" target="_blank">Texas A&M University</a>, where I work with <a href="http://faculty.cse.tamu.edu/guni/" target="_blank">Guni Sharon</a> in the <a href="http://faculty.cse.tamu.edu/guni/pistar/index.html" target="_blank">Pi Star Lab</a>.
+
+            My research interests lie at the intersection of reinforcement learning and robotics. My current research focuses on leveraging expert demonstrations and interventions to make reinforcement learning safer.
         </p>
-        
+
         <p>
-            My PhD research focuses on developing algorithms for machine learning, mainly focused on semi-supervised, curriculum learning, and graph-based problems.
-            I am also passionate about applying machine learning methods in neuroscience, in order to study how the brain understands language and controls speech.
-            Previously, I did some research in Computer Vision, with the goal of detecting and tracking objects in videos.
+            I previously received an M.S. in computer science from Texas A&M University, during which I was fortunate to work with <a href="https://www.atlaswang.com/" target="_blank">Atlas Wang</a> and <a href="https://medicine.tamu.edu/faculty/wang.html" target="_blank">Jun Wang</a> on brain image analysis. I also worked with <a href="https://engineering.tamu.edu/mechanical/profiles/rathinam-sivakumar.html" target="_blank">Sivakumar Rathinam</a> developing audio-based machine learning algorithms for autonomous driving.
         </p>
+
     </div>
 </div>
 
 <div class="col text-justify p-0">
-    <p>
-        Before I joined CMU, I graduated with an <a href="https://www.cst.cam.ac.uk/admissions/acs" target="_blank">M.Phil. in Advanced Computer Science</a>
-        from the <a href="https://www.cam.ac.uk/" target="_blank">University of Cambridge</a>, UK.
-        In my Master's thesis I used Machine Learning methods to detect and align chromosomes in microscope images,
-        advised by <a href="https://www.cl.cam.ac.uk/~pl219/" target="_blank">Pietro Lió</a>.
-    </p>
+    
 </div>
 
 <!-- News -->
