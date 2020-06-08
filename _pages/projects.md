@@ -3,7 +3,6 @@ layout: page
 title: Projects
 nav: projects
 permalink: /projects/
-description: some of the projects I have worked on
 ---
 
 <div id="projects" class="row mt-2 pt-3" style="overflow: visible !important;">
@@ -18,8 +17,8 @@ description: some of the projects I have worked on
         <div class="card">
           <img class="card-img-top" src="{{ project.img | prepend: site.baseurl | prepend: site.url }}" alt="project thumbnail">
           <div class="card-body">
-            <h5 class="card-title text-lowercase">{{ project.title }}</h5>
-            <p class="card-text">{{ project.description }}</p>
+            <h5 class="card-title">{{ project.title }}</h5>
+            <h6 class="card-text">{{ project.description }}</h6>
             <div class="row ml-1 mr-1 p-0">
               {% if project.wordpress %}
                 <div class="wordpress-icon" data-toggle="tooltip" title="Blog Post">
