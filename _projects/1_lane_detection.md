@@ -2,12 +2,12 @@
 layout: page
 title: Lane Detection
 description: Finding Lane Lines on the Road
-img: /assets/img/lane_detection/thumbnail.jpg
+img: /assets/img/lane_detection/lane_lines.jpg
 ---
 <br />
 I did this project as a part of the Udacity Self-Driving Car Nanodegree program. It is an implementation in Python 3 to detect lane lines on the road. In this blog post I have described the pipeline to achieve this task. The complete code for the project is available [here](https://github.com/sheelabhadra/CarND-LaneLines-P1).
 
-#### **Description of the pipeline**
+### **Description of the pipeline**
 ---
 
 My pipeline consists of 6 steps. For illustration I have used an example image shown below to show the effect of all the operations in my pipeline.
@@ -73,12 +73,12 @@ The line segments obtained in the previous step are extrapolated to draw straigh
 </p>
 
 #### Project Video
-
+<br />
 <p align="center">
-	<iframe width="480" height="270" src="https://www.youtube.com/embed/q_gZGQMwX00" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	<iframe width="400" height="200" src="https://www.youtube.com/embed/q_gZGQMwX00" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </p>
-
-#### **Potential shortcomings**
+<br />
+### **Potential shortcomings**
 ---
 
 * If the intensity of the lane lines varies a lot in the video due to different angles of the sun, then my pipeline does not perform well.
@@ -88,7 +88,7 @@ The line segments obtained in the previous step are extrapolated to draw straigh
 * My pipeline will not work on roads that do not contain lane markings 
 
 
-#### **Possible improvements**
+### **Possible improvements**
 ---
 
 * A possible improvement would be to track the yellow lane line by using color masking.
