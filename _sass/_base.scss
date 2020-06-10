@@ -14,22 +14,30 @@ $caption_font_size: 12px;
 $caption_color: #3e4551;
 
 /* COLORS  */
-$red:           #FF3636;
-$orange:        #F29105;
-$blue:          #2698BA;
-$green:         #11D68B;
-$lime_green:    #B7D12A;
-$purple:        #B509AC;
-$brown_orange:  #C68646;
-$web_green:     #7cb342;
-
+$red:               #FF3636 !default;
+$red-1:             #f95020 !default;
+$orange:            #F29105 !default;
+$orange-1:          #ffcc22 !default;
+$blue:              #2698BA !default;
+$blue-1:            #0076df !default;
+$dark-blue:         #00369f !default;
+$green:             #00ab37 !default;
+$green-1:           #11D68B !default;
+$green-2:           #00cf26 !default;
+$dark-green:        #009f06 !default;
+$light-green:       #ddffdd !default;
+$lime_green:        #B7D12A !default;
+$purple:            #B509AC !default;
+$pink:              #f92080 !default;
+$light-pink:        #ffdddd !default;
+$yellow:            #efcc00 !default;
 
 $grey-color-dark:   #333;  /* footer */
 $grey-color-light:  #ddd;  /* navigation bar border */
 $text-color:        rgb(60, 72, 88); /* #666; */
 
 /* Set theme color *************************/
-$theme-color: $web_green; /* #b71c1c; */
+$theme-color: $blue-1;
 $background-color: #fdfdfd;
 
 /************************************************************/
