@@ -2,7 +2,7 @@
 layout: page
 title: Lane Detection
 description: Finding Lane Lines on the Road
-img: /assets/img/lane_detection/lane_lines.jpg
+img: /assets/img/lane_detection/thumbnail.gif
 ---
 <br />
 I did this project as a part of the Udacity Self-Driving Car Nanodegree program. It is an implementation in Python 3 to detect lane lines on the road. In this blog post I have described the pipeline to achieve this task. The complete code for the project is available [here](https://github.com/sheelabhadra/CarND-LaneLines-P1).
@@ -75,7 +75,7 @@ The line segments obtained in the previous step are extrapolated to draw straigh
 #### Project Video
 <br />
 <p align="center">
-	<iframe width="400" height="200" src="https://www.youtube.com/embed/q_gZGQMwX00" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	<iframe width="500" height="300" src="https://www.youtube.com/embed/q_gZGQMwX00" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </p>
 <br />
 ### **Potential shortcomings**
