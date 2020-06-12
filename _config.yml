@@ -63,6 +63,10 @@ collections:
   projects:
     output: true
     permalink: /projects/:path/
+  blog:
+    output: true
+    permalink: /blog/:year/:title/
+  #   paginate_path: /blog/page:num/
 
 news_limit: 10
 
