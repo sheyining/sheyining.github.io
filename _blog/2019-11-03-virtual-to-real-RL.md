@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Virtual to Real Reinforcement Learning for Autonomous Driving [Paper Summary]
+title:  Virtual to Real Reinforcement Learning for Autonomous Driving
 date:   2019-11-03
 description: Image translation networks to generate real-world images
 ---

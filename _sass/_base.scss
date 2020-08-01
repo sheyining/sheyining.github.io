@@ -31,6 +31,7 @@ $purple:            #B509AC !default;
 $pink:              #f92080 !default;
 $light-pink:        #ffdddd !default;
 $yellow:            #efcc00 !default;
+$coral:             #FA7268 !default;
 
 $grey-color-dark:   #333;  /* footer */
 $grey-color-light:  #ddd;  /* navigation bar border */
@@ -229,6 +230,24 @@ a {
     &:hover {
         color: lighten(rgb(33, 117, 155), 20%);
         background: lighten(rgb(33, 117, 155), 20%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        text-decoration: none;
+    }
+}
+
+.ig-icon {
+    color: rgb(251, 57, 88);
+    background: rgb(251, 57, 88);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: initial;
+
+    &:hover {
+        color: lighten(rgb(251, 57, 88), 20%);
+        background: lighten(rgb(251, 57, 88), 20%);
         background-clip: text;
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
