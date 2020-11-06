@@ -7,7 +7,7 @@ nav: cv
 
 <!-- Place PDF download link at the top right. -->
 <div class="row" style="margin-top: -3.5em;">
-	<a class="ml-auto mr-2" href="/assets/pdf/cv/Resume.pdf" target="_blank">
+	<a class="ml-auto mr-2" href="/assets/pdf/cv/CV-Sheel-Dey.pdf" target="_blank">
 	  <img height="60px" src="/assets/img/pdf_icon.svg">
 	</a>
 </div>
