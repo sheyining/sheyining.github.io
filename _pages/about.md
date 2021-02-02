@@ -28,7 +28,7 @@ address: <a href="https://www.google.com/maps/place/Engineering+Activities+Build
         </div>
 
         <p>
-            I am a 2<sup>nd</sup> year computer science Ph.D. student at <a href="http://www.cmu.edu/" target="_blank">Texas A&M University</a>, where I work with <a href="http://faculty.cse.tamu.edu/guni/" target="_blank">Dr. Guni Sharon</a> in the <a href="http://faculty.cse.tamu.edu/guni/pistar/index.html" target="_blank">Pi Star Lab</a>.
+            Hi, I am a 2<sup>nd</sup> year computer science Ph.D. student at <a href="http://www.cmu.edu/" target="_blank">Texas A&M University</a>, where I work with <a href="http://faculty.cse.tamu.edu/guni/" target="_blank">Dr. Guni Sharon</a> in the <a href="http://faculty.cse.tamu.edu/guni/pistar/index.html" target="_blank">Pi Star Lab</a>.
 
             My research interests lie at the intersection of reinforcement learning and robotics. My current research focuses on leveraging expert demonstrations and interventions to make reinforcement learning safer.
         </p>
