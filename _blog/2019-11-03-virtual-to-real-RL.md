@@ -2,6 +2,8 @@
 layout: post
 title:  Virtual to Real Reinforcement Learning for Autonomous Driving
 date:   2019-11-03
+venue: BMVC-17
+topic: Sim2Real
 description: Image translation networks to generate real-world images
 ---
 

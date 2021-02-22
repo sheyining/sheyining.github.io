@@ -2,7 +2,9 @@
 layout: post
 title: Security Analysis of Safe and Seldonian Reinforcement Learning Algorithms
 date: 2021-02-03
-description: Analysis of the safety test in Seldonian RL algorithms in the presence of adversarial attacks 
+venue: NeurIPS-20
+topic: SafeRL
+description: Analysis of Seldonian RL algorithms in the presence of adversarial attacks 
 ---
 
 **Paper:** Download <a href="https://papers.nips.cc/paper/2020/hash/65ae450c5536606c266f49f1c08321f2-Abstract.html" target="_blank">here</a>  
