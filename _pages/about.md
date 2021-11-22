@@ -2,10 +2,7 @@
 layout: about
 title: about
 permalink: /
-description: >
-  	<p><a href="https://faculty.sist.shanghaitech.edu.cn/faculty/jiangzhh/team/">Human-Cyber-Physical Systems Lab</a></p>
-  	<p><a href="https://sist.shanghaitech.edu.cn/sist_en/">School of Information Science and Technology</a></p>
-  	<p><a href="https://www.shanghaitech.edu.cn/eng/">ShanghaiTech University</a></p>
+description: <a href="https://faculty.sist.shanghaitech.edu.cn/faculty/jiangzhh/team/">Human-Cyber-Physical Systems Lab</a> <a href="https://sist.shanghaitech.edu.cn/sist_en/">School of Information Science and Technology</a> <a href="https://www.shanghaitech.edu.cn/eng/">ShanghaiTech University</a></p>
 
 profile:
   align: right
