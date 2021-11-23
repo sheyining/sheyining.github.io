@@ -36,7 +36,7 @@ nav_order: 6
     <ul class="card-text font-weight-light list-group list-group-flush">
       <li class="list-group-item">○ Undergraduate-level introduction to software engineering, taught by Prof. <a href="https://faculty.sist.shanghaitech.edu.cn/faculty/jiangzhh/">Zhihao Jiang</a> and Prof. <a href="https://www.chrisyttang.org/">Yutian Tang</a>.</li>
       <li class="list-group-item">○ I mentored groups of students working on course projects, designed and graded projects and exams.</li>
-      <li class="list-group-item">○ I was honored with <p>2021 SIST Outstanding Teaching Assistant</p>.</li>
+      <li class="list-group-item">○ I was honored with "2021 SIST Outstanding Teaching Assistant".</li>
     </ul>
   </div>
 </div>
