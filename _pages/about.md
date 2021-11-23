@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 description: <a href="https://faculty.sist.shanghaitech.edu.cn/faculty/jiangzhh/team/">Human-Cyber-Physical Systems Lab</a> • <a href="https://www.shanghaitech.edu.cn/eng/">ShanghaiTech University</a>
 
