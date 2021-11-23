@@ -1,81 +1,30 @@
 ---
 layout: page
-title: project 1
-description: with background image
-img: assets/img/12.jpg
+title: Cognitive Digital Twin for Driving Assistance
+description: A cognitive digital twin framework that models and learns the driver’s decision process. Submitted to ICCPS 2021.
+img: assets/img/cognitive_model/framework.png
 importance: 1
-category: work
-related_publications: true
+category: HCPS Lab
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+## Abstract
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+Modern driving assistance systems are equipped with powerful sensors that can better perceive the driving environment compared to human drivers.
+The discrepancies in the perception of the driving environment by the driver and the system affect the driver's trust towards the driving assistance system and thus driving safety.
+A driving assistance system that infers the driver's decision process can improve the quality of driving assistance as well as the driver's acceptability of the system.
+In this paper, we propose a cognitive digital twin framework that models and learns the driver's decision process.
+The model captures the driver's perception of the driving environment as well as other agents' driving styles.
+Predictions of these perceptions are made based on utility evaluation of future driving environments, which are updated by new observations.
+The driver's decision model was implemented as NPC car controller in a virtual driving environment, which was used to validate the decision model and the proposed cognitive digital twin framework.
+The mechanisms of the model are first validated by exhibiting expected behaviors in common driving conditions.
+The learning algorithm was able to correctly estimate human driver's driving styles and predict the driver's actions using the learned cognitive digital twin.
+With the cognitive digital twin, the driving assistance system can better identify risks that the driver is not aware of, and improve the driver's trust towards the driving assistance system.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% responsive_image path: assets/img/cognitive_model/framework.png title: "example image" class: "img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
+    The proposed cognitive digital twin captures thedriver’s decision process. The ADAS can compare the esti-mated driver’s perception to provide appropriate warningsfor the driver.
 </div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
-
-You can also put regular text between your rows of images, even citations {% cite einstein1950meaning %}.
-Say you wanted to write a bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
-
-{% endraw %}
