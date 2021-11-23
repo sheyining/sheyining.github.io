@@ -70,7 +70,7 @@ A virtual driving environment was developed in Unity. Given vehicles' initial st
         </div>
     </div>
     <div class="col-sm mt-5 mt-md-0">
-        {% responsive_image path: assets/cognitive_model/case-2.png title: "example image" class: "img-fluid rounded z-depth-1" %}
+        {% responsive_image path: assets/img/cognitive_model/case-2.png title: "example image" class: "img-fluid rounded z-depth-1" %}
         <div class="caption">
             Action prediction accuracy using the Highest-Two criteria
         </div>
