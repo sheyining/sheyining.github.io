@@ -21,7 +21,7 @@ Hello there! I am a senior undergraduate student of Computer Science major at <a
 
 I believe that research over reliable and intelligent software systems is essential for the next evolution of modern life. My current research focuses on developing model-based intelligent assistance systems in Transportation and Healthcare. Recently, I'm going to apply for 2022 Ph.D. position. I'm really looking forward to working further research about Cyber-Physical Systems, Formal Methods, Software Engineering and Machine Learning!
 
-Before joining HCPS Lab, I was a member of Visual & Data Intelligence Center, and completed several projects about computer vision and deep learning.
+Before joining HCPS Lab, I was a member of <a href="https://vic.shanghaitech.edu.cn/">Visual & Data Intelligence Center</a>, and completed several projects about computer vision and deep learning.
 
 Please feel free to contact me through [email](mailto:sheyining@live.com) if you have any questions.
 
