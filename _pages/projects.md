@@ -5,7 +5,7 @@ permalink: /projects/
 description: A growing collection of my lab and course projects.
 nav: true
 display_categories: [HCPS Lab, work, fun]
-horizontal: true
+horizontal: false
 ---
 
 <!-- pages/projects.md -->
