@@ -7,22 +7,83 @@ importance: 1
 category: HCPS Lab
 ---
 
-## Abstract
+### Overview
 
-Modern driving assistance systems are equipped with powerful sensors that can better perceive the driving environment compared to human drivers.
-The discrepancies in the perception of the driving environment by the driver and the system affect the driver's trust towards the driving assistance system and thus driving safety.
-A driving assistance system that infers the driver's decision process can improve the quality of driving assistance as well as the driver's acceptability of the system.
-In this paper, we propose a cognitive digital twin framework that models and learns the driver's decision process.
-The model captures the driver's perception of the driving environment as well as other agents' driving styles.
-Predictions of these perceptions are made based on utility evaluation of future driving environments, which are updated by new observations.
-The driver's decision model was implemented as NPC car controller in a virtual driving environment, which was used to validate the decision model and the proposed cognitive digital twin framework.
-The mechanisms of the model are first validated by exhibiting expected behaviors in common driving conditions.
-The learning algorithm was able to correctly estimate human driver's driving styles and predict the driver's actions using the learned cognitive digital twin.
-With the cognitive digital twin, the driving assistance system can better identify risks that the driver is not aware of, and improve the driver's trust towards the driving assistance system.
+Modern driving assistance systems are equipped with powerful sensors that can better perceive the driving environment compared to human drivers. The discrepancies in the perception of the driving environment by the driver and the system affect the driver's trust towards the driving assistance system and thus driving safety. A driving assistance system that infers the driver's decision process can improve the quality of driving assistance as well as the driver's acceptability of the system.
+
+We propose a cognitive digital twin framework that models and learns the driver's decision process. Three parts are included in this framework: 
+
+1. Driver's Cognitive Model
+2. Cognitive Digital Twin Identification
+3. Intelligent Driving Assist System
+
+### Framework
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
+    <div class="col-sm mt-3 mt-md-0">
         {% responsive_image path: assets/img/cognitive_model/framework.png title: "example image" class: "img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+</div>
+<div class="caption">
+    The proposed cognitive digital twin captures the driver’s decision process. The ADAS can compare the esti-mated driver’s perception to provide appropriate warningsfor the driver.
+</div>
+
+### Driver's Cognitive Model
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% responsive_image path: assets/img/cognitive_model/overview.png title: "example image" class: "img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+Five main parts for our driver cognitive model are:
+
+1. Observe
+2. Update
+3. Evaluation
+4. Prediction
+5. Decision
+
+### Virtual Driving Platform
+
+A virtual driving environment was developed in Unity. Given vehicles' initial status, arbitrary driving scenery can be simulated in the virtual environment, and all necessary run-time information can be recorded. The vehicle can be controlled by a Logitech G29 driving controller, so human players can enjoy a realistic driving experience and make decisions close to what they would do in real life. 
+
+<div class="row">
+    <div class="col-sm mt-5 mt-md-0">
+        {% responsive_image path: assets/img/cognitive_model/simulatorSetup.png title: "example image" class: "img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-5 mt-md-0">
+        {% responsive_image path: assets/img/cognitive_model/unity.png title: "example image" class: "img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+
+### Results
+
+<div class="row">
+    <div class="col-sm mt-5 mt-md-0">
+        {% responsive_image path: assets/img/cognitive_model/human-1.png title: "example image" class: "img-fluid rounded z-depth-1" %}
+        <div class="caption">
+            Different strategies when interacting with cars with different driving style perceptions
+        </div>
+    </div>
+    <div class="col-sm mt-5 mt-md-0">
+        {% responsive_image path: assets/cognitive_model/case-2.png title: "example image" class: "img-fluid rounded z-depth-1" %}
+        <div class="caption">
+            Action prediction accuracy using the Highest-Two criteria
+        </div>
+    </div>
+</div>
+
+
+
+
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% responsive_image path: assets/img/cognitive_model/human-1.png title: "example image" class: "img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
