@@ -37,10 +37,8 @@ With our own improvements, (1) the network can have more stable performance when
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        <div class="youtube">
-       <iframe width="100%" class="elementor-video-iframe" src="https://www.youtube.com/embed/CqQME-OIbKY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
-</div>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/CqQME-OIbKY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	</div>
 <div class="caption">
     Our swapping result. The left-top video is the target, other videos are swapping results.
 </div>
