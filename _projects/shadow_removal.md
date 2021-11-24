@@ -1,47 +1,71 @@
 ---
 layout: page
-title: High-Resolution Neural Face Swapping for Visual Effects
-description: Swap the appearance of a target actor and a source actor while maintaining the target actor’s performance using deep neural network.
-img: assets/img/neural_swap/facereplace.jpg
-importance: 1
+title: Portrait Shadow Manipulation
+description: Remove foreign shadows and soften facial shadow in a portrait photo based on GridNet.
+img: assets/img/shadow_removal/cover.png
+importance: 2
 category: Mars
 ---
 
 ## Overview
 
-We implemented the neural face-swapping algorithm proposed in the paper [High-Resolution Neural Face Swapping for Visual Effects](https://studios.disneyresearch.com/2020/06/29/high-resolution-neural-face-swapping-for-visual-effects/), and made our own improvements to it.
+I implemented a Neural Network to removed the foreign shadow on human face in a portrait image based on the paper [Portrait Shadow Manipulation](https://ceciliavision.github.io/project-pages/portrait.html).
 
-In brief, the network is a kind of *Encoder-Decoder Model*. The key idea of the work is the concept of a *shared  latent space*. The encoder encodes an image to the latent space, while the decoders turn a piece of latent code to an image. 
+In brief, the method proposed in the paper relies on *a pair of neural networks*—one to
+remove foreign shadows cast by external objects, and another to soften facial
+shadows cast by the features of the subject and to add a synthetic fill light to
+improve the lighting ratio. To train the first network, they constructed a dataset of real-world portraits wherein synthetic foreign shadows are rendered onto the face.
 
-1. During the training process, images from all identities are embedded in a shared latent space using a common encoder, and these embeddings are then mapped back into pixel space using the decoder corresponding to the desired source appearance. 
-2. At testing time, we only need to replace the source identity's decoder with the target's, while keep the common encoder unchanged. All other steps are the same with training.
+<br/>
+
+## Network Architecture
+
+For foreign shadow removal model, a *GridNet* architecture with modifications was employed. *GridNet* can learn both high-level and low-level features with its multi-resolution conv-deconv grid  architecture which can be seen as an extension of the *U-Net*. 
+
+Besides, the model is supervised with a weighted combination of pixel-space L1 loss ($$L_{pix}$$) and a perceptual feature space loss ($$L_{feat}$$). The perceptual loss is computed by processing the images through a pre-trained *VGG-19 network* and computing the L1 difference between extracted features in selected layers.
+
+<br/>
+
+## Data Acquisition
+
+To synthesize images with foreign shadows, we model images as a linear 
+blend between a “lit” image $$I_l$$ and a “shadowed” image $$I_s$$, according to 
+some shadow mask $$M$$:
+$$I=I_l\circ (1-M)+I_s\circ M$$
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% responsive_image path: assets/img/neural_swap/pipeline.png title: "example image" class: "img-fluid" %}
+        {% responsive_image path: assets/img/shadow_removal/shadow_generate.png title: "example image" class: "img-fluid" %}
+    </div>
+</div>
+
+<br/>
+Since *style-GAN* generated images are lifelike and quite similar to human protrait images, I used it to generate 50,000 different identities and took the method above to synthesize the foreign shadow dataset.
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% responsive_image path: assets/img/shadow_removal/train_data.png title: "example image" class: "img-fluid" %}
+    </div>
+</div>
+
+<br/>
+
+## Results
+The testing data was sythesized in the same way with training data, but with different identities and different shadow shapes. 
+The final model can perform very well on the testing data, but there will be obvious masks on the real-world shadow portaits. 
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% responsive_image path: assets/img/shadow_removal/output.png title: "example image" class: "img-fluid" %}
     </div>
 </div>
 <div class="caption">
-    Single-encoder (green), multi-decoder (red) network architecture. 
+    Results on the Sythesized Testing data.
 </div>
-<br/>
-
-The paper's algorithm takes the advantage of progressive training to enable generation of high-resolution images, and by extending the architecture and training data beyond two people, the network can achieve higher fidelity in generated expressions.
-
-
-
-### Our Works
-
-We have put much effort into this work, and made many effective changes to the model after numerous experiments and analysis: (1) adding *Batch-Norm Layers* to some proper positions (2) redesign the *Loss function* and etc. 
-With our own improvements, (1) the network can have more stable performance when dealing with less-frequent expressions in the training sets (2) the generated results can reserve more details information (e.g. wrinkles on the face, teeth exposed when laughing).
-
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        <video src="assets/img/neural_swap/FaceSwap.mp4" controls>
-        </video>
+    <div class="col">
+        {% responsive_image path: assets/img/shadow_removal/output_bad.png title: "example image" class: "img-fluid" %}
+    </div>
 </div>
 <div class="caption">
-    Our swapping result. The left-top video is the target, other videos are swapping results.
+    Results on the real-world data.
 </div>
-
-
