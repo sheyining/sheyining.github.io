@@ -23,7 +23,7 @@ We propose a cognitive digital twin framework that models and learns the driver'
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0"></div>
-    <div class="col-sm mt-3 mt-md-0">
+    <div class="col-sm mt-6 mt-md-0">
         {% responsive_image path: assets/img/cognitive_model/framework.png title: "example image" class: "img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0"></div>
@@ -32,12 +32,11 @@ We propose a cognitive digital twin framework that models and learns the driver'
     The proposed cognitive digital twin captures the driver’s decision process. The ADAS can compare the esti-mated driver’s perception to provide appropriate warningsfor the driver.
 </div>
 
+<br/>
 
 ### Driver's Cognitive Model
 
-
 Five main parts for our driver cognitive model are:
-
 1. Observe
 2. Update
 3. Evaluation
@@ -50,7 +49,7 @@ Five main parts for our driver cognitive model are:
     </div>
 </div>
 
-
+<br/>
 
 ### Virtual Driving Platform
 
@@ -66,6 +65,7 @@ A virtual driving environment was developed in Unity. Given vehicles' initial st
 </div>
 
 
+<br/>
 
 ### Results
 
