@@ -96,5 +96,5 @@ The mechanism for reentry:
         {% responsive_image path: assets/img/heart_diagnosis/statistics.png title: "example image" class: "img-fluid" %}
     </div>
 </div>
-
+<br/>
 Fewer heart models need to be checked if the parameter ranges for heart models increases. Heart models with larger parameter ranges may return traces that are not physiologically-feasible. The rule-based approach checks more heart conditions, but the complexity for each check is low. Rule-based approach is also less likely to have false-positives.
