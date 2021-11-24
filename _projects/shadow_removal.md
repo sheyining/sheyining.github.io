@@ -37,7 +37,8 @@ With our own improvements, (1) the network can have more stable performance when
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        <iframe  src="https://youtu.be/CqQME-OIbKY" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+        <video src="assets/img/neural_swap/FaceSwap.mp4" controls>
+        </video>
 </div>
 <div class="caption">
     Our swapping result. The left-top video is the target, other videos are swapping results.
