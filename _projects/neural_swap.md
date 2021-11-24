@@ -36,8 +36,7 @@ We have put much effort into this work, and made many effective changes to the m
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        <video controls>
-        	<source src="assets/img/neural_swap/FaceSwap.mp4" type="video/mp4">
+        <video src="assets/img/neural_swap/FaceSwap.mp4" controls>
         </video>
 </div>
 <div class="caption">
