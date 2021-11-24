@@ -26,11 +26,11 @@ Cardiac ablation is the primary therapy for tachycardia, which relies on accurat
 ### Method
 
 <div class="row">
-    <div class="col-sm mt mt-md-4"></div>
-    <div class="col-sm mt mt-md-8">
+    <div class="col-2"></div>
+    <div class="col-8">
         {% responsive_image path: assets/img/heart_diagnosis/problem.png title: "example image" class: "img-fluid" %}
     </div>
-    <div class="col-sm mt mt-md-4"></div>
+    <div class="col-2"></div>
 </div>
 
 EGM observation sequence $$w^o_{GT}$$ can be explained by multiple heart behavior traces (green stars), which correspond to even more parameter vectors (blue squares). The parameter ranges of heart models are refined as more observations occur, so that all feasible behavior traces that can explain EGM sequence can be uniquely identified.
@@ -38,11 +38,11 @@ EGM observation sequence $$w^o_{GT}$$ can be explained by multiple heart behavio
 <br/>
 
 <div class="row">
-    <div class="col-sm mt-2 mt-md-0"></div>
-    <div class="col-sm mt-8 mt-md-0">
+    <div class="col-2"></div>
+    <div class="col-8">
         {% responsive_image path: assets/img/heart_diagnosis/parameter.png title: "example image" class: "img-fluid" %}
     </div>
-    <div class="col-sm mt-2 mt-md-0"></div>
+    <div class="col-2"></div>
 </div>
 
 Heart model parameters are iteratively refined. Heart models that cannot generate the observed EGM sequences are eliminated. Heart models with the same proof trace are merged to reduce the complexity.
