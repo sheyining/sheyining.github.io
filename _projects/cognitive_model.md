@@ -24,7 +24,7 @@ We propose a cognitive digital twin framework that models and learns the driver'
 <div class="row">
     <div class="col-sm mt-3 mt-md-0"></div>
     <div class="col-sm mt-6 mt-md-0">
-        {% responsive_image path: assets/img/cognitive_model/framework.png title: "example image" class: "img-fluid rounded z-depth-1" %}
+        {% responsive_image path: assets/img/cognitive_model/framework.png title: "example image" class: "img-fluid" %}
     </div>
     <div class="col-sm mt-3 mt-md-0"></div>
 </div>
@@ -45,7 +45,7 @@ Five main parts for our driver cognitive model are:
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% responsive_image path: assets/img/cognitive_model/overview.png title: "example image" class: "img-fluid rounded z-depth-1" %}
+        {% responsive_image path: assets/img/cognitive_model/overview.png title: "example image" class: "img-fluid" %}
     </div>
 </div>
 
@@ -57,10 +57,10 @@ A virtual driving environment was developed in Unity. Given vehicles' initial st
 
 <div class="row">
     <div class="col-sm mt-5 mt-md-0">
-        {% responsive_image path: assets/img/cognitive_model/simulatorSetup.png title: "example image" class: "img-fluid rounded z-depth-1" %}
+        {% responsive_image path: assets/img/cognitive_model/simulatorSetup.png title: "example image" class: "img-fluid" %}
     </div>
     <div class="col-sm mt-5 mt-md-0">
-        {% responsive_image path: assets/img/cognitive_model/unity.png title: "example image" class: "img-fluid rounded z-depth-1" %}
+        {% responsive_image path: assets/img/cognitive_model/unity.png title: "example image" class: "img-fluid" %}
     </div>
 </div>
 
@@ -71,13 +71,13 @@ A virtual driving environment was developed in Unity. Given vehicles' initial st
 
 <div class="row">
     <div class="col-sm mt-5 mt-md-0">
-        {% responsive_image path: assets/img/cognitive_model/human-1.png title: "example image" class: "img-fluid rounded z-depth-1" %}
+        {% responsive_image path: assets/img/cognitive_model/human-1.png title: "example image" class: "img-fluid" %}
         <div class="caption">
             Different strategies when interacting with cars with different driving style perceptions
         </div>
     </div>
     <div class="col-sm mt-5 mt-md-0">
-        {% responsive_image path: assets/img/cognitive_model/case-2.png title: "example image" class: "img-fluid rounded z-depth-1" %}
+        {% responsive_image path: assets/img/cognitive_model/case-2.png title: "example image" class: "img-fluid" %}
         <div class="caption">
             Action prediction accuracy using the Highest-Two criteria
         </div>
