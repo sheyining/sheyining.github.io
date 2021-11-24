@@ -75,7 +75,7 @@ The mechanism for reentry:
     </div>
 </div>
 <div class="caption">
-    Visualization of two proof traces returned from two heart models with two topologies. $$\gamma_2$$ was eliminated after observing the $$5^{th}$$ observation.
+    Visualization of two proof traces returned from two heart models with two topologies. gamma_2 was eliminated after observing the 5th observation.
 </div>
 
 <br/>
@@ -86,7 +86,7 @@ The mechanism for reentry:
     </div>
 </div>
 <div class="caption">
-    8 different proof traces of $$\gamma_1$$ returned by the model checker after the $$7^{th}$$ observation. Note that some traces look the same but the event order in different branches are different.
+    8 different proof traces of gamma_1 returned by the model checker after the 7th observation. Note that some traces look the same but the event order in different branches are different.
 </div>
 
 <br/>
