@@ -22,11 +22,11 @@ We propose a cognitive digital twin framework that models and learns the driver'
 ### Framework
 
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
+    <div class="col-sm mt-3 mt-md-0"></div>
     <div class="col-sm mt-3 mt-md-0">
         {% responsive_image path: assets/img/cognitive_model/framework.png title: "example image" class: "img-fluid rounded z-depth-1" %}
     </div>
-    <div class="col-sm mt-3 mt-md-0">
+    <div class="col-sm mt-3 mt-md-0"></div>
 </div>
 <div class="caption">
     The proposed cognitive digital twin captures the driver’s decision process. The ADAS can compare the esti-mated driver’s perception to provide appropriate warningsfor the driver.
