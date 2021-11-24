@@ -24,15 +24,17 @@ For foreign shadow removal model, a *GridNet* architecture with modifications wa
 
 Besides, the model is supervised with a weighted combination of pixel-space L1 loss ($$L_{pix}$$) and a perceptual feature space loss ($$L_{feat}$$). The perceptual loss is computed by processing the images through a pre-trained *VGG-19 network* and computing the L1 difference between extracted features in selected layers.
 
-<br/>
+
 
 ## Data Acquisition
 
 To synthesize images with foreign shadows, we model images as a linear 
 blend between a “lit” image $$I_l$$ and a “shadowed” image $$I_s$$, according to 
 some shadow mask $$M$$:
+
 $$I=I_l\circ (1-M)+I_s\circ M$$
 
+<br/>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% responsive_image path: assets/img/shadow_removal/shadow_generate.png title: "example image" class: "img-fluid" %}
