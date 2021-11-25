@@ -16,16 +16,19 @@ The team project completed in the course **Artificial Intelligence** at the end 
 ## Data Preprocessing
 
 <div class="row g-0">
+		<div class="col-md-4"></div>
         <div class="col-md-4">
           {% responsive_image path: assets/img/cs181-ai/bbtan-ui.png title: "example image" class: "img-fluid" %}
         </div>
-        <div class="caption">
-            BB-TAN game GUI. The game is similar to Break-Out, with every level generating new random bricks at the top. Bricks will be destroyed after enough collisions. Game is over when there is a brick hits the bottom, and the goal is to survive as long as possible using an efficient policy.
-        </div>
-        <div class="col-md-8">
-        	BBTan is a ball shooting game whose core idea is to shoot the ball and destroy the numbered square shape bricks. And the game usually set multiple-level of required hitting times for the square brick, for each bricks the number on the square indicates how many times the players need to hit them to destroy them. And there exists some other extra functional circle bricks with some special gain effect. The player need to get as much as possible scores while surviving longer.
-        </div>
+        <div class="col-md-4"></div>
 </div>
+<div class="caption">
+            BB-TAN game GUI. The game is similar to Break-Out, with every level generating new random bricks at the top. Bricks will be destroyed after enough collisions. Game is over when there is a brick hits the bottom, and the goal is to survive as long as possible using an efficient policy.
+</div>
+
+<br/>
+
+BBTan is a ball shooting game whose core idea is to shoot the ball and destroy the numbered square shape bricks. And the game usually set multiple-level of required hitting times for the square brick, for each bricks the number on the square indicates how many times the players need to hit them to destroy them. And there exists some other extra functional circle bricks with some special gain effect. The player need to get as much as possible scores while surviving longer.
 
 <br/>
 
