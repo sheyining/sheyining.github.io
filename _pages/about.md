@@ -20,11 +20,11 @@ display_categories: [HCPS Lab, Mars]
 horizontal: true
 ---
 
-Hello there! I am a senior undergraduate student of Computer Science major at <a href="https://www.shanghaitech.edu.cn/eng/">ShanghaiTech University</a>, where I am fortunate to be an research assistant in <a href="https://faculty.sist.shanghaitech.edu.cn/faculty/jiangzhh/team/">Human-Cyber-Physical Systems Lab</a>, advised by Prof. <a href="https://faculty.sist.shanghaitech.edu.cn/faculty/jiangzhh/">Zhihao Jiang</a>.
+I am a senior undergraduate student at <a href="https://www.shanghaitech.edu.cn/eng/">ShanghaiTech University</a> major in Computer Science. Currently, I am an undergraduate research assistant in <a href="https://faculty.sist.shanghaitech.edu.cn/faculty/jiangzhh/team/">Human-Cyber-Physical Systems Lab</a>, advised by Prof. <a href="https://faculty.sist.shanghaitech.edu.cn/faculty/jiangzhh/">Zhihao Jiang</a>.
 
-I believe that research over reliable and intelligent software systems is essential for the next evolution of modern life. My current research focuses on developing model-based intelligent assistance systems in Transportation and Healthcare. Recently, I'm going to apply for 2022 Ph.D. position. I'm really looking forward to working further research about Cyber-Physical Systems, Formal Methods, Software Engineering and Machine Learning!
+My current research focuses on developing model-based intelligent assistance systems in Transportation and Healthcare. I realize that research over reliable and intelligent software systems is essential for the next evolution of modern life. Recently, I'm applying for **Ph.D.** position in *Software Engineering* and *Artificial Intelligence* for **Fall 2022**. My research interests includes *Cyber-Physical Systems*, *Formal Methods*, and *Machine Learning*!
 
-Before joining HCPS Lab, I was a member of <a href="https://vic.shanghaitech.edu.cn/">Visual & Data Intelligence Center</a>, and completed several projects about computer vision and deep learning.
+Before joining HCPS Lab, I was a member of <a href="https://vic.shanghaitech.edu.cn/">Visual & Data Intelligence Center</a>. My work primarily aimed at solving problems in *2D Face Reconstruction* by using the techniques from machine learning and computer graphics.
 
 Please feel free to contact me through [email](mailto:sheyining@live.com) if you have any questions.
 
