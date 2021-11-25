@@ -17,6 +17,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 
 display_categories: [HCPS Lab, Mars]
+horizontal: true
 ---
 
 Hello there! I am a senior undergraduate student of Computer Science major at <a href="https://www.shanghaitech.edu.cn/eng/">ShanghaiTech University</a>, where I am fortunate to be an research assistant in <a href="https://faculty.sist.shanghaitech.edu.cn/faculty/jiangzhh/team/">Human-Cyber-Physical Systems Lab</a>, advised by Prof. <a href="https://faculty.sist.shanghaitech.edu.cn/faculty/jiangzhh/">Zhihao Jiang</a>.
