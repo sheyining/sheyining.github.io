@@ -4,7 +4,7 @@ title: Projects
 permalink: /projects/
 description: A growing collection of my important lab and course projects.
 nav: true
-display_categories: [HCPS Lab, Mars, Course Project, work, fun]
+display_categories: [HCPS Lab, Mars, Course Project]
 horizontal: true
 ---
 <div class="projects">
