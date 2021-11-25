@@ -24,7 +24,7 @@ I am a senior undergraduate student at <a href="https://www.shanghaitech.edu.cn/
 
 My current research focuses on developing model-based intelligent assistance systems in Transportation and Healthcare. I realize that research over reliable and intelligent software systems is essential for the next evolution of modern life. Recently, I'm applying for **Ph.D.** position in *Software Engineering* and *Artificial Intelligence* for **Fall 2022**. My research interests includes *Cyber-Physical Systems*, *Formal Methods*, and *Machine Learning*!
 
-Before joining HCPS Lab, I was a member of <a href="https://vic.shanghaitech.edu.cn/">Visual & Data Intelligence Center</a>. My work primarily aimed at solving problems in *2D Face Reconstruction* by using the techniques from machine learning and computer graphics.
+Before joining HCPS Lab, I was a member of <a href="https://vic.shanghaitech.edu.cn/">Visual & Data Intelligence Center</a>, advised by Prof. [Jingyi Yu](https://vic.shanghaitech.edu.cn/vrvc/en/people/jingyi-yu/) and Prof. [Lan Xu](http://xu-lan.com/). My work primarily aimed at solving problems in *2D Face Reconstruction* by using the techniques from machine learning and computer graphics.
 
 Please feel free to contact me through [email](mailto:sheyining@live.com) if you have any questions.
 
