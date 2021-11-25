@@ -1,8 +1,8 @@
 ---
 layout: page
 title: Intelligent Player
-description: Remove foreign shadows and soften facial shadow in a portrait photo based on GridNet.
-img: assets/img/shadow_removal/cover.png
+description: Use <b>Deep Q-learning Network</b> to train an AI Player.
+img: assets/img/ai-cover.png
 importance: 3
 category: Course Project
 ---

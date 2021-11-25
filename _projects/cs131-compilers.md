@@ -1,11 +1,9 @@
 ---
 layout: page
 title: Compiler for Cool
-description: >
-	<p>Course project of "Compilers", in which we were required to write a compiler for Classroom Object-Oriented Language(Cool). All components of a compiler are covered, including lexical analysis, parsing, semantic analysis, and code generation.</p>
-	<p>Cool Compiler is also the course project of Stanford CS 143. For more detail of what Cool language is, click the card and you will be redirected to Cool Manual. </p>
+description: Course project of <b>"Compilers"</b>, in which we were required to write a compiler for <b>Classroom Object-Oriented Language(Cool)</b>. All components of a compiler are covered, including lexical analysis, parsing, semantic analysis, and code generation. <br><b>Cool Compiler</b> is also the course project of <b>Stanford CS 143</b>. For more detail of what <b>Cool</b> language is, click the card and you will be redirected to <b>Cool Manual</b>.
 
-img: 
+img: assets/img/compiler.jpg
 redirect: https://theory.stanford.edu/~aiken/software/cool/cool.html
 importance: 1
 category: Course Project
