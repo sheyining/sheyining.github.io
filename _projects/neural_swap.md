@@ -33,7 +33,8 @@ The paper's algorithm takes the advantage of progressive training to enable gene
 ## Our Works
 
 We have put much effort into this work, and made many effective changes to the model after numerous experiments and analysis: (1) adding *Batch-Norm Layers* to some proper positions (2) redesign the *Loss function* and etc. 
-With our own improvements, (1) the network can have more stable performance when dealing with less-frequent expressions in the training sets (2) the generated results can reserve more details information (e.g. wrinkles on the face, teeth exposed when laughing).
+
+With our own improvements, (1) the network can have more stable performance when dealing with less-frequent expressions in the training sets (2) the generated results can reserve more detail information (e.g. wrinkles on the face, teeth exposed when laughing, and eye blinks).
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">

@@ -36,9 +36,11 @@ $$I=I_l\circ (1-M)+I_s\circ M$$
 
 <br/>
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
+	<div class="col-2"></div>
+    <div class="col-8">
         {% responsive_image path: assets/img/shadow_removal/shadow_generate.png title: "example image" class: "img-fluid" %}
     </div>
+    <div class="col-2"></div>
 </div>
 
 <br/>
