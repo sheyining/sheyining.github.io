@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Model-checking-based Diagnosis Assistance for Cardiac Ablation
-description: A model-checking-based diagnosis assistance system that doesn't need domain-specific rules. Advised by Prof. Zhihao Jiang and Prof. Eunsuk Kang. Related paper has been submitted to TCPS 2021.
+description: A model-checking-based diagnosis assistance system that doesn't need domain-specific rules. Advised by Prof. Zhihao Jiang and Prof. <a href="https://eskang.github.io/">Eunsuk Kang</a>. Related paper has been submitted to TCPS 2021.
 img: assets/img/heart_diagnosis/conduction.png
 importance: 2
 category: HCPS Lab
