@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Unity Simulator for Autonomous Vehicle Platoon
-description: A first-person driving simulator created in Unity for research of <b>Stable Interaction of Autonomous Vehicle Platoons with Human-Driven Vehicles</b>, advised by Prof. Yash Vardhan Pant and Prof. <a href="https://faculty.sist.shanghaitech.edu.cn/faculty/jiangzhh/">Zhihao Jiang</a>. Related paper has been submitted to ACC 2022.
+description: A first-person driving simulator created in Unity for research of <b>Stable Interaction of Autonomous Vehicle Platoons with Human-Driven Vehicles</b>, advised by Prof. Yash Vardhan Pant and Prof. Zhihao Jiang. Related paper has been submitted to ACC 2022.
 img: assets/img/unity_platoon/distracted_photo.png
 importance: 3
 category: HCPS Lab
