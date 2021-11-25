@@ -2,7 +2,7 @@
 layout: page
 title: Intelligent Player
 description: Course project of <b>"Artificial Intelligence"</b>. Use <b>Deep Q-learning Network</b> to train an AI Player.
-img: assets/img/cs181-ai/ai_cover.jpg
+img: assets/img/cs181-ai/ai_cover.png
 importance: 3
 category: Course Project
 ---
@@ -17,7 +17,7 @@ The team project completed in the course **Artificial Intelligence** at the end 
 
 <div class="row g-0">
         <div class="col-md-4">
-          {% responsive_image path: assets/img/cs181-ai/bbtan-ui.jpg title: "example image" class: "img-fluid" %}
+          {% responsive_image path: assets/img/cs181-ai/bbtan-ui.png title: "example image" class: "img-fluid" %}
         </div>
         <div class="caption">
             BB-TAN game GUI. The game is similar to Break-Out, with every level generating new random bricks at the top. Bricks will be destroyed after enough collisions. Game is over when there is a brick hits the bottom, and the goal is to survive as long as possible using an efficient policy.
@@ -66,7 +66,7 @@ However, we did make some progress of training a game AI of Break-Out with the D
 <div class="row">
     <div class="col">
         <video id="video" controls="" preload="none" >
-        <source id="mp4" src="../assets/img/cs181-ai/200.mp4" type="video/mp4">
+        <source id="mp4" src="/assets/img/cs181-ai/200.mp4" type="video/mp4">
         </video>
         <div class="caption">
             After 200 episodes.
@@ -74,7 +74,7 @@ However, we did make some progress of training a game AI of Break-Out with the D
     </div>
     <div class="col">
         <video id="video" controls="" preload="none" >
-        <source id="mp4" src="../assets/img/cs181-ai/5000.mp4" type="video/mp4">
+        <source id="mp4" src="/assets/img/cs181-ai/5000.mp4" type="video/mp4">
         </video>
         <div class="caption">
             After 5000 episodes.
