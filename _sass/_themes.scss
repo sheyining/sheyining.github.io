@@ -36,7 +36,8 @@ html[data-theme='dark'] {
   --global-footer-text-color: #{$grey-color-dark};
   --global-footer-link-color: #{$black-color};
   --global-distill-app-color: #{$grey-color-light};
-  --global-divider-color: #8a8a91;
+  // --global-divider-color: #8a8a91;
+  --global-divider-color: #ffa2af;
 
   .fa-sun {
     padding-left: 10px;
