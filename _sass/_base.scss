@@ -56,6 +56,10 @@ table.table a {
   }
 }
 
+.list-group-item {
+  background-color: var(--global-bg-color);
+}
+
 blockquote {
   background: var(--global-bg-color);
   border-left: 5px solid var(--global-theme-color);
