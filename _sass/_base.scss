@@ -345,8 +345,13 @@ footer.sticky-bottom {
     img {
       width: 100%;
     }
+    background-color: var(--global-bg-color);
     .card-title {
-      color: $black-color;
+      // color: $black-color;
+      color: var(--global-text-color);
+    }
+    .card-text {
+      color: var(--global-text-color);
     }
   }
 
