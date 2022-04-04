@@ -6,7 +6,7 @@ description: <a href="https://faculty.sist.shanghaitech.edu.cn/faculty/jiangzhh/
 
 profile:
   align: right
-  image: syn_pic.jpg
+  image: syn_photo1.jpg
   # address: >
   #   <p>SIST 3-403B</p>
   #   <p>393 Middle Huaxia Road</p>
