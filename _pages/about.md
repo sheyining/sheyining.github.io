@@ -2,15 +2,16 @@
 layout: about
 title: About
 permalink: /
-description: <a href="https://faculty.sist.shanghaitech.edu.cn/faculty/jiangzhh/team/">Human-Cyber-Physical Systems Lab</a> • <a href="https://www.shanghaitech.edu.cn/eng/">ShanghaiTech University</a>
+description: <a href="https://s3d.cmu.edu/">Software and Societal Systems Department</a> • <a href="https://www.cs.cmu.edu/">School of Computer Science</a>  • <a href="https://www.cmu.edu/">Carnegie Mellon University</a>
 
 profile:
   align: right
-  image: syn-photo1.jpg
-  # address: >
-  #   <p>SIST 3-403B</p>
-  #   <p>393 Middle Huaxia Road</p>
-  #   <p>Pudong, Shanghai 201210</p>
+  image: syn-pic-s3d.jpg
+  address: >
+  <a href="https://www.google.com/maps/place/TCS+Hall/@40.4447683,-79.9473066,17z/data=!3m1!4b1!4m5!3m4!1s0x8834f319d3870ad1:0x79d45fd59091764a!8m2!3d40.4447683!4d-79.9473066">
+    <p>TCS Hall, Room 313</p>
+    <p>4665 Forbes Ave</p>
+    <p>Pittsburgh, PA 15213</p></a>
 
 news: false  # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
