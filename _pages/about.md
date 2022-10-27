@@ -19,7 +19,7 @@ display_categories: [HCPS Lab, Mars]
 horizontal: true
 ---
 
-I am a first-year PhD student in Software Engineering at Software and Societal Systems Department](https://s3d.cmu.edu/), [Carnegie Mellon University](https://www.cmu.edu/), advised by [Dr. Eunsuk Kang](https://eskang.github.io/). My research interests are in Software Engineering, Artificial Intelligence, Cyber-Physical Systems and Formal Methods.
+I am a first-year PhD student in Software Engineering at [Software and Societal Systems Department](https://s3d.cmu.edu/), [Carnegie Mellon University](https://www.cmu.edu/), advised by [Dr. Eunsuk Kang](https://eskang.github.io/). My research interests are in Software Engineering, Artificial Intelligence, Cyber-Physical Systems and Formal Methods.
 
 My current research focuses on AI's impacts on long-term fairness, but as a new PhD student I'm exploring widely in Software Engineering.
 
