@@ -8,9 +8,8 @@ profile:
   align: right
   image: syn-pic-s3d.jpg
   address: >
-    <p>TCS Hall, Room 313</p>
-    <p>4665 Forbes Ave</p>
-    <p>Pittsburgh, PA 15213</p>
+    <p>Office: <a href="https://goo.gl/maps/gSZmnxHUU13Deg1u7">TCS Hall</a>, Room 313</p>
+    <p>Email: yiningsh [at] cs [dot] cmu [doc] edu</p>
 
 news: false  # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
