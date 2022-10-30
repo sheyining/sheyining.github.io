@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Cognitive Digital Twin for Driving Assistance
-description: A cognitive digital twin framework that models and learns the driver’s decision process. Advised by Prof. Zhihao Jiang and Prof. Yash Vardhan Pant. Related paper has been submitted to ICCPS 2022.
+description: A cognitive digital twin framework that models and learns the driver’s decision process. Advised by Prof. Zhihao Jiang and Prof. Yash Vardhan Pant.
 img: assets/img/cognitive_model/framework.png
 importance: 1
 category: HCPS Lab
