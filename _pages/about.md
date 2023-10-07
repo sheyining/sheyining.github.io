@@ -15,17 +15,17 @@ news: false  # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 
-display_categories: [HCPS Lab, Mars]
+display_categories: [SoDA]
 horizontal: true
 ---
 
-I am a first-year PhD student in Software Engineering at [Software and Societal Systems Department](https://s3d.cmu.edu/), [Carnegie Mellon University](https://www.cmu.edu/), advised by [Dr. Eunsuk Kang](https://eskang.github.io/). My research interests are in Software Engineering, Artificial Intelligence, Cyber-Physical Systems and Formal Methods.
+I am a second-year PhD student in Software Engineering at [Software and Societal Systems Department](https://s3d.cmu.edu/), [Carnegie Mellon University](https://www.cmu.edu/), advised by [Dr. Eunsuk Kang](https://eskang.github.io/). My research interests are mainly in the intersection of *Software Engineering* and *Artificial Intelligence*. I want to leverage SE techniques to help design safe and reliable AI systems, as well as investigate new applications of AI for software development.
 
-My current research focuses on AI's impacts on long-term fairness, but as a new PhD student I'm exploring widely in Software Engineering.
+My recent work focuses on analyzing long-term fairness issuesd in ML-enabled systems, and utilizing LLM to extract formal model from source code.
 
-Before joining Carnegie Mellon University, I was pursuing my bachelor of Engineering in Computer Science at [ShanghaiTech University](https://www.shanghaitech.edu.cn/eng/), where I was a research assistant at [Human-Cyber-Physical Systems Lab](https://faculty.sist.shanghaitech.edu.cn/faculty/jiangzhh/team/), advised by [Dr. Zhihao Jiang](https://faculty.sist.shanghaitech.edu.cn/faculty/jiangzhh/). My research at HCPS Lab focused on developing *model-based intelligent assistance systems* in Transportation and Healthcare. Prior to joining HCPS Lab, I was a member of [Visual & Data Intelligence Center](https://vic.shanghaitech.edu.cn/), advised by [Dr. Jingyi Yu](https://vic.shanghaitech.edu.cn/vrvc/en/people/jingyi-yu/), and my work primarily aimed at solving problems in *2D Face Reconstruction* by using the techniques from machine learning and computer graphics.
+Before joining CMU, I received my bachelor of Engineering in Computer Science at [ShanghaiTech University](https://www.shanghaitech.edu.cn/eng/), where I worked with [Dr. Zhihao Jiang](https://faculty.sist.shanghaitech.edu.cn/faculty/jiangzhh/) at [Human-Cyber-Physical Systems Lab](https://faculty.sist.shanghaitech.edu.cn/faculty/jiangzhh/team/). Prior to joining HCPS Lab, I was a member of [Visual & Data Intelligence Center](https://vic.shanghaitech.edu.cn/), advised by [Dr. Jingyi Yu].
 
-Please feel free to contact me through email and discuss collaboration opportunities!
+If you are interested in my research and collaboration, please feel free to reach out.
 
 
 
