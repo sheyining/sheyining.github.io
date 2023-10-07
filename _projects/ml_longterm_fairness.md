@@ -1,6 +1,6 @@
 ---
 layout: post
-title: FairSense<div>:</div> Long-Term Fairness Analysis of ML-enabled Systems
+title: FairSense<span>:</span> Long-Term Fairness Analysis of ML-enabled Systems
 description: Propose a simulation-based framework called FairSense to detect and analyze long-term unfairness in ML-enabled systems.
 # img: assets/img/unity_platoon/distracted_photo.png
 importance: 3
