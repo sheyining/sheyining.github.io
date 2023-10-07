@@ -18,7 +18,7 @@ nav_order: 6
     </div>
     <h6 class="font-italic mt-2 mt-sm-0">Fall 2023: Teaching Assistant</h6>
     <ul class="card-text font-weight-light list-group list-group-flush">
-      <li class="list-group-item">○ Graduate-level compulsory course of MSE program, taught by Prof. <a href="http://www.cs.cmu.edu/~garlan/">David Garlan</a> and Prof. <a href="https://eskang.github.io/">Eunsuk Kang.</li>
+      <li class="list-group-item">○ Graduate-level compulsory course of MSE program, taught by Prof. <a href="http://www.cs.cmu.edu/~garlan/">David Garlan</a> and Prof. <a href="https://eskang.github.io/">Eunsuk Kang</a>.</li>
       <!-- <li class="list-group-item">○ I manage the TA team and course logistics (including Piazza and GradeScope).</li>
       <li class="list-group-item">○ I hold weekly discussion session and office hours for review and Q&A, create and grade homeworks and exams.</li> -->
     </ul>

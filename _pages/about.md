@@ -23,7 +23,7 @@ I am a second-year PhD student in Software Engineering at [Software and Societal
 
 My recent work focuses on analyzing long-term fairness issuesd in ML-enabled systems, and utilizing LLM to extract formal model from source code.
 
-Before joining CMU, I received my bachelor of Engineering in Computer Science at [ShanghaiTech University](https://www.shanghaitech.edu.cn/eng/), where I worked with [Dr. Zhihao Jiang](https://faculty.sist.shanghaitech.edu.cn/faculty/jiangzhh/) at [Human-Cyber-Physical Systems Lab](https://faculty.sist.shanghaitech.edu.cn/faculty/jiangzhh/team/). Prior to joining HCPS Lab, I was a member of [Visual & Data Intelligence Center](https://vic.shanghaitech.edu.cn/), advised by [Dr. Jingyi Yu].
+Before joining CMU, I received my bachelor of Engineering in Computer Science at [ShanghaiTech University](https://www.shanghaitech.edu.cn/eng/), where I worked with [Dr. Zhihao Jiang](https://faculty.sist.shanghaitech.edu.cn/faculty/jiangzhh/) at [Human-Cyber-Physical Systems Lab](https://faculty.sist.shanghaitech.edu.cn/faculty/jiangzhh/team/).
 
 If you are interested in my research and collaboration, please feel free to reach out.
 
@@ -39,7 +39,7 @@ If you are interested in my research and collaboration, please feel free to reac
   {% if site.enable_project_categories and page.display_categories %}
   <!-- Display categorized projects -->
     {% for category in page.display_categories %}
-      <h2 class="category">{{ category }}</h2>
+      <!-- <h2 class="category">{{ category }}</h2> -->
       {% assign categorized_projects = site.projects | where: "category", category %}
       {% assign sorted_projects = categorized_projects | sort: "importance" %}
       <!-- Generate cards for each project -->
