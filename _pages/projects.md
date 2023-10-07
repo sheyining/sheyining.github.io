@@ -1,10 +1,10 @@
 ---
 layout: page
-title: Projects
+title: Research Projects
 permalink: /projects/
-description: A growing collection of my important lab and course projects.
+description: 
 nav: true
-display_categories: [HCPS Lab, Mars, Course Project]
+display_categories: [SoDA, HCPS Lab, Mars]
 horizontal: true
 ---
 <div class="projects">

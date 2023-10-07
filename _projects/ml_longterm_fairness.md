@@ -1,0 +1,12 @@
+---
+layout: post
+title: FairSense<div>:</div> Long-Term Fairness Analysis of ML-enabled Systems
+description: Propose a simulation-based framework called FairSense to detect and analyze long-term unfairness in ML-enabled systems.
+# img: assets/img/unity_platoon/distracted_photo.png
+importance: 3
+category: SoDA
+---
+
+Algorithmic fairness of machine learning (ML) models have raised significant concern in the recent past. Many testing, verification, and bias mitigation techniques have been proposed by the software engineering community to identify and reduce fairness issues in ML models. The existing methods operate in a static environment and detect issues in one-shot predictive tasks. However, many ML-based systems operate in dynamic environments where the predictive decisions made by the system impact the environment, which in turn affects future decision-making. Such a self-reinforcing *feedback* loop can cause fairness violations in the long-term, even if the immediate outcomes are fair. For example, when an ML based system approves or reject bank loans, the decision can affect the credit score of the applicants, which in turn determine future chances of approval. Identifying such long-term fairness issues is challenging because of  complex interactions between system configurations (agent policies, ML hyperparameters, retraining methods, etc.) and uncertainty in the environment properties (population characteristics, distributional shifts). 
+
+We a simulation-based framework called ***FairSense*** to detect and analyze long-term unfairness in ML-enabled systems. Given a fairness requirement, *FairSense* performs Monte-Carlo simulation to enumerate evolution traces for each system configuration. Then *FairSense* performs sensitivity analysis on the space of system parameters to understand the impact of configuration decisions on long-term fairness of the system. *FairSense* also leverages heuristics to efficiently search over the configuration space to identify most sensitive ones that cause (un)fairness over time. We evaluated *FairSense* on three real-world case studies: Loan lending, opioids risk scoring, and predictive policing. The results show that *FairSense* can detect and mitigate long-term fairness issues effectively, even if the ML model or policy appears fair under short-term analysis.
