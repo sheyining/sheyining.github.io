@@ -2,7 +2,7 @@
 <html lang="en">
 
   <head>
-    <meta http-equiv="refresh" content="3; url=https://sheyining.github.io/" />
+    
     <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,7 +12,7 @@
   Yining She  
 
 
-  | Page not found
+  | Portrait Shadow Manipulation
 
 </title>
 <meta name="description" content="">
@@ -37,7 +37,7 @@
 <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🚀</text></svg>">
 
 <link rel="stylesheet" href="/assets/css/main.css">
-<link rel="canonical" href="https://sheyining.github.io/404.html">
+<link rel="canonical" href="https://sheyining.github.io/projects/shadow_removal/">
 
 
 <!-- Dark Mode -->
@@ -181,12 +181,91 @@
       <div class="post">
 
   <header class="post-header">
-    <h1 class="post-title">Page not found</h1>
-    <p class="post-description">Looks like there has been a mistake. Nothing exists here.</p>
+    <h1 class="post-title">Portrait Shadow Manipulation</h1>
+    <p class="post-description">Remove foreign shadows and soften facial shadow in a portrait photo based on GridNet.</p>
   </header>
 
   <article>
-    <p>You will be redirected to the main page within 3 seconds. If not redirected, please click <a href="https://sheyining.github.io/">here</a>.</p>
+    <h2 id="overview">Overview</h2>
+
+<p>I implemented a Neural Network to removed the foreign shadow on human face in a portrait image based on the paper <a href="https://ceciliavision.github.io/project-pages/portrait.html" target="_blank" rel="noopener noreferrer">Portrait Shadow Manipulation</a>.</p>
+
+<p>In brief, the method proposed in the paper relies on <em>a pair of neural networks</em>—one to
+remove foreign shadows cast by external objects, and another to soften facial
+shadows cast by the features of the subject and to add a synthetic fill light to
+improve the lighting ratio. To train the first network, they constructed a dataset of real-world portraits wherein synthetic foreign shadows are rendered onto the face.</p>
+
+<p><br></p>
+
+<h2 id="network-architecture">Network Architecture</h2>
+
+<p>For foreign shadow removal model, a <em>GridNet</em> architecture with modifications was employed. <em>GridNet</em> can learn both high-level and low-level features with its multi-resolution conv-deconv grid  architecture which can be seen as an extension of the <em>U-Net</em>.</p>
+
+<p>Besides, the model is supervised with a weighted combination of pixel-space L1 loss (\(L_{pix}\)) and a perceptual feature space loss (\(L_{feat}\)). The perceptual loss is computed by processing the images through a pre-trained <em>VGG-19 network</em> and computing the L1 difference between extracted features in selected layers.</p>
+
+<h2 id="data-acquisition">Data Acquisition</h2>
+
+<p>To synthesize images with foreign shadows, we model images as a linear 
+blend between a “lit” image \(I_l\) and a “shadowed” image \(I_s\), according to 
+some shadow mask \(M\):</p>
+
+\[I=I_l\circ (1-M)+I_s\circ M\]
+
+<p><br></p>
+<div class="row">
+	<div class="col-2"></div>
+    <div class="col-8">
+          
+  
+  
+ <img class="img-fluid" src="/assets/resized/shadow_generate-1400x714.png" srcset="        /assets/resized/shadow_generate-480x245.png 480w,        /assets/resized/shadow_generate-800x408.png 800w,        /assets/resized/shadow_generate-1400x714.png 1400w,    / assets/img/shadow_removal/shadow_generate.png 2113w" title="example image"> 
+
+    </div>
+    <div class="col-2"></div>
+</div>
+
+<p><br>
+Since <em>style-GAN</em> generated images are lifelike and quite similar to human protrait images, I used it to generate 50,000 different identities and took the method above to synthesize the foreign shadow dataset.</p>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+          
+  
+  
+ <img class="img-fluid" src="/assets/resized/train_data-1400x652.png" srcset="        /assets/resized/train_data-480x224.png 480w,        /assets/resized/train_data-800x373.png 800w,        /assets/resized/train_data-1400x652.png 1400w,    / assets/img/shadow_removal/train_data.png 1545w" title="example image"> 
+
+    </div>
+</div>
+
+<p><br></p>
+
+<h2 id="results">Results</h2>
+<p>The testing data was sythesized in the same way with training data, but with different identities and different shadow shapes. 
+The final model can perform very well on the testing data, but there will be obvious masks on the real-world shadow portaits.</p>
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+          
+  
+  
+ <img class="img-fluid" src="/assets/resized/output-1400x512.png" srcset="        /assets/resized/output-480x176.png 480w,        /assets/resized/output-800x293.png 800w,        /assets/resized/output-1400x512.png 1400w,    / assets/img/shadow_removal/output.png 1572w" title="example image"> 
+
+    </div>
+</div>
+<div class="caption">
+    Results on the Sythesized Testing data.
+</div>
+<div class="row">
+    <div class="col">
+          
+  
+  
+ <img class="img-fluid" src="/assets/resized/output_bad-1400x513.png" srcset="        /assets/resized/output_bad-480x176.png 480w,        /assets/resized/output_bad-800x293.png 800w,        /assets/resized/output_bad-1400x513.png 1400w,    / assets/img/shadow_removal/output_bad.png 1577w" title="example image"> 
+
+    </div>
+</div>
+<div class="caption">
+    Results on the real-world data.
+</div>
 
   </article>
 

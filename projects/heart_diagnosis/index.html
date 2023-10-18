@@ -2,7 +2,7 @@
 <html lang="en">
 
   <head>
-    <meta http-equiv="refresh" content="3; url=https://sheyining.github.io/" />
+    
     <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,7 +12,7 @@
   Yining She  
 
 
-  | Page not found
+  | Model-checking-based Diagnosis Assistance for Cardiac Ablation
 
 </title>
 <meta name="description" content="">
@@ -37,7 +37,7 @@
 <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🚀</text></svg>">
 
 <link rel="stylesheet" href="/assets/css/main.css">
-<link rel="canonical" href="https://sheyining.github.io/404.html">
+<link rel="canonical" href="https://sheyining.github.io/projects/heart_diagnosis/">
 
 
 <!-- Dark Mode -->
@@ -181,12 +181,129 @@
       <div class="post">
 
   <header class="post-header">
-    <h1 class="post-title">Page not found</h1>
-    <p class="post-description">Looks like there has been a mistake. Nothing exists here.</p>
+    <h1 class="post-title">Model-checking-based Diagnosis Assistance for Cardiac Ablation</h1>
+    <p class="post-description">A model-checking-based diagnosis assistance system that doesn't need domain-specific rules.</p>
   </header>
 
   <article>
-    <p>You will be redirected to the main page within 3 seconds. If not redirected, please click <a href="https://sheyining.github.io/">here</a>.</p>
+    <h3 id="abstract">Abstract</h3>
+
+<p>Cardiac ablation is the primary therapy for tachycardia, which relies on accurate and efficient diagnosis of the patient’s heart condition.  Due to the limitations on the invasiveness of the diagnosis methods, physicians can only infer the patient’s heart condition using information from partial observations from the patient. Due to the complexity and variability of human physiology, there may exist multiple heart conditions that can explain historical observations. The physicians have to enumerate all possible heart conditions that can explain historical observations, and update the set of heart conditions using information from the new observations. The number of suspected heart conditions can be large, which poses heavy mental burden to the physicians, and affects the rigorousness and efficiency of the diagnosis. In this paper, a model-checking-based diagnosis assistance system is proposed to improve accuracy and efficiency of diagnosis in cardiac ablation. Heart models are used to represent the ambiguities during diagnosis. Heart model parameters are refined in order to enumerate suspected heart conditions that may explain the observations. Model checking is used to check whether a heart model can produce historical observations, and proof traces are visualized to the physicians. The system separates computationally-heavy tasks from iterative diagnosis, which can reduce the mental burden of physicians and improve the rigorousness and efficiency of cardiac ablation. The soundness and completeness of the system are rigorously proved, and the efficiency of the system is compared to a previously-proposed rule-based assistance system using clinical case study.</p>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+          
+  
+  
+ <img class="img-fluid" src="/assets/resized/overview-1400x700.png" srcset="        /assets/resized/overview-480x240.png 480w,        /assets/resized/overview-800x400.png 800w,        /assets/resized/overview-1400x700.png 1400w,    / assets/img/heart_diagnosis/overview.png 1931w" title="example image"> 
+
+    </div>
+</div>
+<div class="caption">
+    1) Electrical activities within the heart; 2) Catheters in the heart during cardiac ablation; 3) Electrogram (EGM) signals sensed from the catheters; 4) Diagnosis Assistance System along with the current setup during cardiac ablation.
+</div>
+
+<p><br></p>
+
+<h3 id="method">Method</h3>
+
+<div class="row">
+    <div class="col-2"></div>
+    <div class="col-8">
+          
+  
+  
+ <img class="img-fluid" src="/assets/resized/problem-1400x923.png" srcset="        /assets/resized/problem-480x317.png 480w,        /assets/resized/problem-800x528.png 800w,        /assets/resized/problem-1400x923.png 1400w,    / assets/img/heart_diagnosis/problem.png 1483w" title="example image"> 
+
+    </div>
+    <div class="col-2"></div>
+</div>
+
+<p>EGM observation sequence \(w^o_{GT}\) can be explained by multiple heart behavior traces (green stars), which correspond to even more parameter vectors (blue squares). The parameter ranges of heart models are refined as more observations occur, so that all feasible behavior traces that can explain EGM sequence can be uniquely identified.</p>
+
+<p><br></p>
+
+<div class="row">
+    <div class="col-2"></div>
+    <div class="col-8">
+          
+  
+  
+ <img class="img-fluid" src="/assets/resized/parameter-800x543.png" srcset="        /assets/resized/parameter-480x326.png 480w,        /assets/resized/parameter-800x543.png 800w,    / assets/img/heart_diagnosis/parameter.png 1350w" title="example image"> 
+
+    </div>
+    <div class="col-2"></div>
+</div>
+
+<p>Heart model parameters are iteratively refined. Heart models that cannot generate the observed EGM sequences are eliminated. Heart models with the same proof trace are merged to reduce the complexity.</p>
+
+<p><br></p>
+
+<h3 id="case-study---reentry-circuit">Case Study - Reentry Circuit</h3>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+          
+  
+  
+ <img class="img-fluid" src="/assets/resized/avnrt-800x230.png" srcset="        /assets/resized/avnrt-480x138.png 480w,        /assets/resized/avnrt-800x230.png 800w,    / assets/img/heart_diagnosis/avnrt.png 1385w" title="example image"> 
+
+    </div>
+</div>
+
+<p>The mechanism for reentry:</p>
+<ol>
+  <li>depolarization waves conflict in the slow path during normal sinus rhythm;</li>
+  <li>premature depolarization wave is blocked in the fast path;</li>
+  <li>depolarization wave enters the fast path from the opposite direction;</li>
+  <li>depolarization wave traverse around the reentry circuit.</li>
+</ol>
+
+<p><br></p>
+
+<h3 id="results">Results</h3>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+          
+  
+  
+ <img class="img-fluid" src="/assets/resized/result-1400x675.png" srcset="        /assets/resized/result-480x231.png 480w,        /assets/resized/result-800x386.png 800w,        /assets/resized/result-1400x675.png 1400w,    / assets/img/heart_diagnosis/result.png 1844w" title="example image"> 
+
+    </div>
+</div>
+<div class="caption">
+    Visualization of two proof traces returned from two heart models with two topologies. gamma_2 was eliminated after observing the 5th observation.
+</div>
+
+<p><br></p>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+          
+  
+  
+ <img class="img-fluid" src="/assets/resized/ambiguities-1400x613.png" srcset="        /assets/resized/ambiguities-480x210.png 480w,        /assets/resized/ambiguities-800x350.png 800w,        /assets/resized/ambiguities-1400x613.png 1400w,    / assets/img/heart_diagnosis/ambiguities.png 1978w" title="example image"> 
+
+    </div>
+</div>
+<div class="caption">
+    8 different proof traces of gamma_1 returned by the model checker after the 7th observation. Note that some traces look the same but the event order in different branches are different.
+</div>
+
+<p><br></p>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+          
+  
+  
+ <img class="img-fluid" src="/assets/resized/statistics-1400x495.png" srcset="        /assets/resized/statistics-480x170.png 480w,        /assets/resized/statistics-800x283.png 800w,        /assets/resized/statistics-1400x495.png 1400w,    / assets/img/heart_diagnosis/statistics.png 1960w" title="example image"> 
+
+    </div>
+</div>
+<p><br>
+Fewer heart models need to be checked if the parameter ranges for heart models increases. Heart models with larger parameter ranges may return traces that are not physiologically-feasible. The rule-based approach checks more heart conditions, but the complexity for each check is low. Rule-based approach is also less likely to have false-positives.</p>
 
   </article>
 

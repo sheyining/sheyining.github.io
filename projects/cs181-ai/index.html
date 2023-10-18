@@ -2,7 +2,7 @@
 <html lang="en">
 
   <head>
-    <meta http-equiv="refresh" content="3; url=https://sheyining.github.io/" />
+    
     <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,7 +12,7 @@
   Yining She  
 
 
-  | Page not found
+  | Intelligent Player
 
 </title>
 <meta name="description" content="">
@@ -37,7 +37,7 @@
 <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🚀</text></svg>">
 
 <link rel="stylesheet" href="/assets/css/main.css">
-<link rel="canonical" href="https://sheyining.github.io/404.html">
+<link rel="canonical" href="https://sheyining.github.io/projects/cs181-ai/">
 
 
 <!-- Dark Mode -->
@@ -181,12 +181,98 @@
       <div class="post">
 
   <header class="post-header">
-    <h1 class="post-title">Page not found</h1>
-    <p class="post-description">Looks like there has been a mistake. Nothing exists here.</p>
+    <h1 class="post-title">Intelligent Player</h1>
+    <p class="post-description">Course project of <b>"Artificial Intelligence"</b>. Use <b>Deep Q-learning Network</b> to train an AI Player.</p>
   </header>
 
   <article>
-    <p>You will be redirected to the main page within 3 seconds. If not redirected, please click <a href="https://sheyining.github.io/">here</a>.</p>
+    <h2 id="overview">Overview</h2>
+
+<p>The team project completed in the course <strong>Artificial Intelligence</strong> at the end of the first semester of my sophomore year in <em>ShanghaiTech</em> (2019 Fall). Inspired by the paper <a href="https://arxiv.org/abs/1312.5602" target="_blank" rel="noopener noreferrer">Playing Atari with Deep Reinforcement Learning</a>, we intended to implement <strong>Q-Learning</strong> and <strong>Deep Q-Network</strong> to play the pixel game BB-TAN.</p>
+
+<p><br></p>
+
+<h2 id="data-preprocessing">Data Preprocessing</h2>
+
+<div class="row g-0">
+		<div class="col-md-4"></div>
+        <div class="col-md-4">
+            
+  
+  
+ <img class="img-fluid" src="/assets/resized/bbtan-ui-480x834.png" srcset="        /assets/resized/bbtan-ui-480x834.png 480w,    / assets/img/cs181-ai/bbtan-ui.png 528w" title="example image"> 
+
+        </div>
+        <div class="col-md-4"></div>
+</div>
+<div class="caption">
+            BB-TAN game GUI. The game is similar to Break-Out, with every level generating new random bricks at the top. Bricks will be destroyed after enough collisions. Game is over when there is a brick hits the bottom, and the goal is to survive as long as possible using an efficient policy.
+</div>
+
+<p><br></p>
+
+<p>BBTan is a ball shooting game whose core idea is to shoot the ball and destroy the numbered square shape bricks. And the game usually set multiple-level of required hitting times for the square brick, for each bricks the number on the square indicates how many times the players need to hit them to destroy them. And there exists some other extra functional circle bricks with some special gain effect. The player need to get as much as possible scores while surviving longer.</p>
+
+<p><br></p>
+
+<p>Since the input of the DQN is screenshots of the game, in order to get rid of redundant elements in the games (e.g. numbers inside squares, pause buttons, illustrations, balls counting text), we made some changes to simplify the original game.</p>
+
+<div class="row">
+    <div class="col">
+          
+  
+  
+ <img class="img-fluid" src="/assets/resized/simple-game-800x388.jpg" srcset="        /assets/resized/simple-game-480x233.jpg 480w,        /assets/resized/simple-game-800x388.jpg 800w,    / assets/img/cs181-ai/simple-game.jpg 1241w" title="example image"> 
+
+    </div>
+</div>
+<div class="caption">
+    The process of simplifying.
+</div>
+
+<p><br></p>
+
+<h2 id="deep-q-network-implementation">Deep Q-Network Implementation</h2>
+
+<div class="row">
+    <div class="col">
+          
+  
+  
+ <img class="img-fluid" src="/assets/resized/pseudocode_ai-800x407.png" srcset="        /assets/resized/pseudocode_ai-480x244.png 480w,        /assets/resized/pseudocode_ai-800x407.png 800w,    / assets/img/cs181-ai/pseudocode_ai.png 906w" title="example image"> 
+
+    </div>
+</div>
+<div class="caption">
+    Pseudocode of DQN from the paper.
+</div>
+
+<p><br></p>
+
+<h2 id="our-results">Our Results</h2>
+
+<p>Unfortunately, the final result of BBTan AI was not good. It is probably because of the complexity of the BBTan game and also our lack of engineering experience at that time (we were fresh sophomores).</p>
+
+<p>However, we did make some progress of training a game AI of Break-Out with the DQN.</p>
+
+<div class="row">
+    <div class="col">
+        <video id="video" controls="" preload="none">
+        <source id="mp4" src="/assets/img/cs181-ai/200.mp4" type="video/mp4"></source>
+        </video>
+        <div class="caption">
+            After 200 episodes.
+        </div>
+    </div>
+    <div class="col">
+        <video id="video" controls="" preload="none">
+        <source id="mp4" src="/assets/img/cs181-ai/5000.mp4" type="video/mp4"></source>
+        </video>
+        <div class="caption">
+            After 5000 episodes.
+        </div>
+    </div>
+</div>
 
   </article>
 

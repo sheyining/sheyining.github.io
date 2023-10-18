@@ -2,7 +2,7 @@
 <html lang="en">
 
   <head>
-    <meta http-equiv="refresh" content="3; url=https://sheyining.github.io/" />
+    
     <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,7 +12,7 @@
   Yining She  
 
 
-  | Page not found
+  | High-Resolution Neural Face Swapping for Visual Effects
 
 </title>
 <meta name="description" content="">
@@ -37,7 +37,7 @@
 <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🚀</text></svg>">
 
 <link rel="stylesheet" href="/assets/css/main.css">
-<link rel="canonical" href="https://sheyining.github.io/404.html">
+<link rel="canonical" href="https://sheyining.github.io/projects/neural_swap/">
 
 
 <!-- Dark Mode -->
@@ -181,12 +181,55 @@
       <div class="post">
 
   <header class="post-header">
-    <h1 class="post-title">Page not found</h1>
-    <p class="post-description">Looks like there has been a mistake. Nothing exists here.</p>
+    <h1 class="post-title">High-Resolution Neural Face Swapping for Visual Effects</h1>
+    <p class="post-description">Swap the appearance of a target actor and a source actor while maintaining the target actor’s performance using deep neural network.</p>
   </header>
 
   <article>
-    <p>You will be redirected to the main page within 3 seconds. If not redirected, please click <a href="https://sheyining.github.io/">here</a>.</p>
+    <h2 id="overview">Overview</h2>
+
+<p>We implemented the neural face-swapping algorithm proposed in the paper <a href="https://studios.disneyresearch.com/2020/06/29/high-resolution-neural-face-swapping-for-visual-effects/" target="_blank" rel="noopener noreferrer">High-Resolution Neural Face Swapping for Visual Effects</a>, and made our own improvements to it.</p>
+
+<p>In brief, the network is a kind of <em>Encoder-Decoder Model</em>. The key idea of the work is the concept of a <em>shared  latent space</em>. The encoder encodes an image to the latent space, while the decoders turn a piece of latent code to an image.</p>
+
+<ol>
+  <li>During the training process, images from all identities are embedded in a shared latent space using a common encoder, and these embeddings are then mapped back into pixel space using the decoder corresponding to the desired source appearance.</li>
+  <li>At testing time, we only need to replace the source identity’s decoder with the target’s, while keep the common encoder unchanged. All other steps are the same with training.</li>
+</ol>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+          
+  
+  
+ <img class="img-fluid" src="/assets/resized/pipeline-1400x465.png" srcset="        /assets/resized/pipeline-480x160.png 480w,        /assets/resized/pipeline-800x266.png 800w,        /assets/resized/pipeline-1400x465.png 1400w,    / assets/img/neural_swap/pipeline.png 1588w" title="example image"> 
+
+    </div>
+</div>
+<div class="caption">
+    Single-encoder (green), multi-decoder (red) network architecture. 
+</div>
+<p><br></p>
+
+<p>The paper’s algorithm takes the advantage of progressive training to enable generation of high-resolution images, and by extending the architecture and training data beyond two people, the network can achieve higher fidelity in generated expressions.</p>
+
+<h2 id="our-works">Our Works</h2>
+
+<p>We have put much effort into this work, and made many effective changes to the model after numerous experiments and analysis: (1) adding <em>Batch-Norm Layers</em> to some proper positions (2) redesign the <em>Loss function</em> and etc.</p>
+
+<p>With our own improvements, (1) the network can have more stable performance when dealing with less-frequent expressions in the training sets (2) the generated results can reserve more detail information (e.g. wrinkles on the face, teeth exposed when laughing, and eye blinks).</p>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/CqQME-OIbKY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+	</div>
+<div class="caption">
+    Our swapping result. The left-top video is the target, other videos are swapping results.
+</div>
+
+
+
+</div>
 
   </article>
 

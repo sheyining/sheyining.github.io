@@ -2,7 +2,7 @@
 <html lang="en">
 
   <head>
-    <meta http-equiv="refresh" content="3; url=https://sheyining.github.io/" />
+    
     <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,7 +12,7 @@
   Yining She  
 
 
-  | Page not found
+  | FairSense<span>:</span> Long-Term Fairness Analysis of ML-enabled Systems
 
 </title>
 <meta name="description" content="">
@@ -37,7 +37,7 @@
 <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🚀</text></svg>">
 
 <link rel="stylesheet" href="/assets/css/main.css">
-<link rel="canonical" href="https://sheyining.github.io/404.html">
+<link rel="canonical" href="https://sheyining.github.io/projects/ml_longterm_fairness/">
 
 
 <!-- Dark Mode -->
@@ -178,17 +178,40 @@
     <!-- Content -->
 
     <div class="container mt-5">
-      <div class="post">
+      
+
+
+
+
+
+<div class="post">
 
   <header class="post-header">
-    <h1 class="post-title">Page not found</h1>
-    <p class="post-description">Looks like there has been a mistake. Nothing exists here.</p>
+    <h1 class="post-title">FairSense<span>:</span> Long-Term Fairness Analysis of ML-enabled Systems</h1>
+    <p class="post-meta">October 18, 2023</p>
+    <p class="post-tags">
+      <a href="/blog/2023"> <i class="fas fa-calendar fa-sm"></i> 2023 </a>
+      
+
+      
+        ·  
+        
+        <a href="/blog/category/SoDA">
+          <i class="fas fa-tag fa-sm"></i> SoDA</a>  
+          
+      
+
+    </p>
   </header>
 
-  <article>
-    <p>You will be redirected to the main page within 3 seconds. If not redirected, please click <a href="https://sheyining.github.io/">here</a>.</p>
+  <article class="post-content">
+    <p>Algorithmic fairness of machine learning (ML) models have raised significant concern in the recent past. Many testing, verification, and bias mitigation techniques have been proposed by the software engineering community to identify and reduce fairness issues in ML models. The existing methods operate in a static environment and detect issues in one-shot predictive tasks. However, many ML-based systems operate in dynamic environments where the predictive decisions made by the system impact the environment, which in turn affects future decision-making. Such a self-reinforcing <em>feedback</em> loop can cause fairness violations in the long-term, even if the immediate outcomes are fair. For example, when an ML based system approves or reject bank loans, the decision can affect the credit score of the applicants, which in turn determine future chances of approval. Identifying such long-term fairness issues is challenging because of  complex interactions between system configurations (agent policies, ML hyperparameters, retraining methods, etc.) and uncertainty in the environment properties (population characteristics, distributional shifts).</p>
+
+<p>We a simulation-based framework called <strong><em>FairSense</em></strong> to detect and analyze long-term unfairness in ML-enabled systems. Given a fairness requirement, <em>FairSense</em> performs Monte-Carlo simulation to enumerate evolution traces for each system configuration. Then <em>FairSense</em> performs sensitivity analysis on the space of system parameters to understand the impact of configuration decisions on long-term fairness of the system. <em>FairSense</em> also leverages heuristics to efficiently search over the configuration space to identify most sensitive ones that cause (un)fairness over time. We evaluated <em>FairSense</em> on three real-world case studies: Loan lending, opioids risk scoring, and predictive policing. The results show that <em>FairSense</em> can detect and mitigate long-term fairness issues effectively, even if the ML model or policy appears fair under short-term analysis.</p>
 
   </article>
+
+  
 
 </div>
 

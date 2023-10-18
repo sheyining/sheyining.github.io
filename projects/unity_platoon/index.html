@@ -2,7 +2,7 @@
 <html lang="en">
 
   <head>
-    <meta http-equiv="refresh" content="3; url=https://sheyining.github.io/" />
+    
     <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,7 +12,7 @@
   Yining She  
 
 
-  | Page not found
+  | Unity Simulator for Autonomous Vehicle Platoon
 
 </title>
 <meta name="description" content="">
@@ -37,7 +37,7 @@
 <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🚀</text></svg>">
 
 <link rel="stylesheet" href="/assets/css/main.css">
-<link rel="canonical" href="https://sheyining.github.io/404.html">
+<link rel="canonical" href="https://sheyining.github.io/projects/unity_platoon/">
 
 
 <!-- Dark Mode -->
@@ -181,12 +181,31 @@
       <div class="post">
 
   <header class="post-header">
-    <h1 class="post-title">Page not found</h1>
-    <p class="post-description">Looks like there has been a mistake. Nothing exists here.</p>
+    <h1 class="post-title">Unity Simulator for Autonomous Vehicle Platoon</h1>
+    <p class="post-description">A first-person driving simulator created in Unity for research of <b>Stable Interaction of Autonomous Vehicle Platoons with Human-Driven Vehicles</b>. Related paper has been accepted by American Control Conference (ACC) 2022.</p>
   </header>
 
   <article>
-    <p>You will be redirected to the main page within 3 seconds. If not redirected, please click <a href="https://sheyining.github.io/">here</a>.</p>
+    <h2 id="abstract">Abstract</h2>
+
+<p>A necessary prerequisite for the safe interaction of autonomous systems with a human-driven vehicle is for the overall closed-loop system (autonomous systems plus human-driven vehicle) to be stable. This paper studies the safe and stable interaction between a platoon of autonomous vehicles and a set of human-driven vehicles. Considering the longitudinal motion of the vehicles in the platoon, the problem is to ensure a safe emergency braking by the autonomous platoon considering the actions of human-driven vehicles, which may vary based on the driver type. We consider two types of platoon topologies, namely unidirectional and bidirectional. Safe emergency braking is characterized by a specific type of platoon stability, called head-to-tail stability (HTS). We present system-theoretic necessary and sufficient conditions for the combination of the autonomous platoon and human-driven vehicles to be HTS for two platoon control laws, namely the velocity tracking and the platoon formation. Modeling the input-output behavior of each vehicle via a transfer function, the HTS conditions restrict the human-driven vehicles’ transfer functions to have \(H_{\infty}\)  norms below certain thresholds. A safe interaction algorithm first identifies the transfer functions of the human-driven vehicles. Then, it tunes the platoon control gains such that the overall system meets HTS conditions. Theoretical results are validated with both experimental data with human subject studies and simulation studies.</p>
+
+<h2 id="unity-driving-simulator">Unity Driving Simulator</h2>
+
+<p>In order to experimentally indentify the human behavior model, I implemented a first-person driving simulator in Unity. Given necessary information, any autonomous platoon and arbitrary driving scenery can be simulated in the virtual environment, and all run-time data can be recorded.</p>
+
+<p>In the first-person driving game, the driver can use the brake and throttle of a Logitech G29 car controller to control a car (with autonomous steering) that is placed behind an autonomous platoon. The movement of all cars is restricted to a single lane.</p>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/GP46gnF3yY0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+	</div>
+<div class="caption">
+    A demo in which a human driver modulated the velocity to safely track the vehicle in front. 
+</div>
+
+
+</div>
 
   </article>
 

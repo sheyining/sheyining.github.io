@@ -2,7 +2,7 @@
 <html lang="en">
 
   <head>
-    <meta http-equiv="refresh" content="3; url=https://sheyining.github.io/" />
+    
     <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,7 +12,7 @@
   Yining She  
 
 
-  | Page not found
+  | Cognitive Digital Twin for Driving Assistance
 
 </title>
 <meta name="description" content="">
@@ -37,7 +37,7 @@
 <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🚀</text></svg>">
 
 <link rel="stylesheet" href="/assets/css/main.css">
-<link rel="canonical" href="https://sheyining.github.io/404.html">
+<link rel="canonical" href="https://sheyining.github.io/projects/cognitive_model/">
 
 
 <!-- Dark Mode -->
@@ -181,12 +181,113 @@
       <div class="post">
 
   <header class="post-header">
-    <h1 class="post-title">Page not found</h1>
-    <p class="post-description">Looks like there has been a mistake. Nothing exists here.</p>
+    <h1 class="post-title">Cognitive Digital Twin for Driving Assistance</h1>
+    <p class="post-description">A cognitive digital twin framework that models and learns the driver’s decision process.</p>
   </header>
 
   <article>
-    <p>You will be redirected to the main page within 3 seconds. If not redirected, please click <a href="https://sheyining.github.io/">here</a>.</p>
+    <h3 id="overview">Overview</h3>
+
+<p>Modern driving assistance systems are equipped with powerful sensors that can better perceive the driving environment compared to human drivers. The discrepancies in the perception of the driving environment by the driver and the system affect the driver’s trust towards the driving assistance system and thus driving safety. A driving assistance system that infers the driver’s decision process can improve the quality of driving assistance as well as the driver’s acceptability of the system.</p>
+
+<p>We propose a cognitive digital twin framework that models and learns the driver’s decision process. Three parts are included in this framework:</p>
+
+<ol>
+  <li>Driver’s Cognitive Model</li>
+  <li>Cognitive Digital Twin Identification</li>
+  <li>Intelligent Driving Assist System</li>
+</ol>
+
+<h3 id="framework">Framework</h3>
+
+<div class="row">
+    <div class="col-3"></div>
+    <div class="col-6">
+          
+  
+  
+ <img class="img-fluid" src="/assets/resized/framework-480x370.png" srcset="        /assets/resized/framework-480x370.png 480w,    / assets/img/cognitive_model/framework.png 578w" title="example image"> 
+
+    </div>
+    <div class="col-3"></div>
+</div>
+<div class="caption">
+    The proposed cognitive digital twin captures the driver’s decision process. The ADAS can compare the esti-mated driver’s perception to provide appropriate warningsfor the driver.
+</div>
+
+<p><br></p>
+
+<h3 id="drivers-cognitive-model">Driver’s Cognitive Model</h3>
+
+<p>Five main parts for our driver cognitive model are:</p>
+<ol>
+  <li>Observe</li>
+  <li>Update</li>
+  <li>Evaluation</li>
+  <li>Prediction</li>
+  <li>Decision</li>
+</ol>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+          
+  
+  
+ <img class="img-fluid" src="/assets/resized/overview-1400x470.png" srcset="        /assets/resized/overview-480x161.png 480w,        /assets/resized/overview-800x269.png 800w,        /assets/resized/overview-1400x470.png 1400w,    / assets/img/cognitive_model/overview.png 2515w" title="example image"> 
+
+    </div>
+</div>
+
+<p><br></p>
+
+<h3 id="virtual-driving-platform">Virtual Driving Platform</h3>
+
+<p>A virtual driving environment was developed in Unity. Given vehicles’ initial status, arbitrary driving scenery can be simulated in the virtual environment, and all necessary run-time information can be recorded. The vehicle can be controlled by a Logitech G29 driving controller, so human players can enjoy a realistic driving experience and make decisions close to what they would do in real life.</p>
+
+<div class="row">
+    <div class="col-sm mt-5 mt-md-0">
+          
+  
+  
+ <img class="img-fluid" src="/assets/resized/simulatorSetup-1400x1050.png" srcset="        /assets/resized/simulatorSetup-480x360.png 480w,        /assets/resized/simulatorSetup-800x600.png 800w,        /assets/resized/simulatorSetup-1400x1050.png 1400w,    / assets/img/cognitive_model/simulatorSetup.png 4032w" title="example image"> 
+
+    </div>
+    <div class="col-sm mt-5 mt-md-0">
+          
+  
+  
+ <img class="img-fluid" src="/assets/resized/unity-1400x782.png" srcset="        /assets/resized/unity-480x268.png 480w,        /assets/resized/unity-800x447.png 800w,        /assets/resized/unity-1400x782.png 1400w,    / assets/img/cognitive_model/unity.png 1595w" title="example image"> 
+
+    </div>
+</div>
+
+<p><br></p>
+
+<h3 id="results">Results</h3>
+
+<div class="row">
+    <div class="col-sm mt-5 mt-md-0">
+          
+  
+  
+ <img class="img-fluid" src="/assets/resized/human-1-1400x972.png" srcset="        /assets/resized/human-1-480x333.png 480w,        /assets/resized/human-1-800x555.png 800w,        /assets/resized/human-1-1400x972.png 1400w,    / assets/img/cognitive_model/human-1.png 2026w" title="example image"> 
+
+        <div class="caption">
+            Different strategies when interacting with cars with different driving style perceptions
+        </div>
+    </div>
+    <div class="col-sm mt-5 mt-md-0">
+          
+  
+  
+ <img class="img-fluid" src="/assets/resized/case-2-1400x749.png" srcset="        /assets/resized/case-2-480x257.png 480w,        /assets/resized/case-2-800x428.png 800w,        /assets/resized/case-2-1400x749.png 1400w,    / assets/img/cognitive_model/case-2.png 2394w" title="example image"> 
+
+        <div class="caption">
+            Action prediction accuracy using the Highest-Two criteria
+        </div>
+    </div>
+</div>
+
 
   </article>
 
