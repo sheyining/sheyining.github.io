@@ -13,7 +13,7 @@ Cardiac ablation is the primary therapy for tachycardia, which relies on accurat
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% responsive_image path: assets/img/heart_diagnosis/overview.png title: "example image" class: "img-fluid" %}
+        <img src="assets/img/heart_diagnosis/overview.png" title="example image" class="img-fluid" alt="example image">
     </div>
 </div>
 <div class="caption">
@@ -28,7 +28,7 @@ Cardiac ablation is the primary therapy for tachycardia, which relies on accurat
 <div class="row">
     <div class="col-2"></div>
     <div class="col-8">
-        {% responsive_image path: assets/img/heart_diagnosis/problem.png title: "example image" class: "img-fluid" %}
+        <img src="assets/img/heart_diagnosis/problem.png" title="example image" class="img-fluid" alt="example image">
     </div>
     <div class="col-2"></div>
 </div>
@@ -40,7 +40,7 @@ EGM observation sequence $$w^o_{GT}$$ can be explained by multiple heart behavio
 <div class="row">
     <div class="col-2"></div>
     <div class="col-8">
-        {% responsive_image path: assets/img/heart_diagnosis/parameter.png title: "example image" class: "img-fluid" %}
+        <img src="assets/img/heart_diagnosis/parameter.png" title="example image" class="img-fluid" alt="example image">
     </div>
     <div class="col-2"></div>
 </div>
@@ -54,7 +54,7 @@ Heart model parameters are iteratively refined. Heart models that cannot generat
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% responsive_image path: assets/img/heart_diagnosis/avnrt.png title: "example image" class: "img-fluid" %}
+        <img src="assets/img/heart_diagnosis/avnrt.png" title="example image" class="img-fluid" alt="example image">
     </div>
 </div>
 
@@ -71,7 +71,7 @@ The mechanism for reentry:
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% responsive_image path: assets/img/heart_diagnosis/result.png title: "example image" class: "img-fluid" %}
+        <img src="assets/img/heart_diagnosis/result.png" title="example image" class="img-fluid" alt="example image">
     </div>
 </div>
 <div class="caption">
@@ -82,7 +82,7 @@ The mechanism for reentry:
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% responsive_image path: assets/img/heart_diagnosis/ambiguities.png title: "example image" class: "img-fluid" %}
+        <img src="assets/img/heart_diagnosis/ambiguities.png" title="example image" class="img-fluid" alt="example image">
     </div>
 </div>
 <div class="caption">
@@ -93,7 +93,7 @@ The mechanism for reentry:
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% responsive_image path: assets/img/heart_diagnosis/statistics.png title: "example image" class: "img-fluid" %}
+        <img src="assets/img/heart_diagnosis/statistics.png" title="example image" class="img-fluid" alt="example image">
     </div>
 </div>
 <br/>

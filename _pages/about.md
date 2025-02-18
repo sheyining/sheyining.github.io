@@ -2,18 +2,30 @@
 layout: about
 title: About
 permalink: /
-description: <a href="https://s3d.cmu.edu/">Software and Societal Systems Department</a> • <a href="https://www.cs.cmu.edu/">School of Computer Science</a>  • <a href="https://www.cmu.edu/">Carnegie Mellon University</a>
+subtitle: <a href="https://s3d.cmu.edu/">Software and Societal Systems Department</a> • <a href="https://www.cs.cmu.edu/">School of Computer Science</a>  • <a href="https://www.cmu.edu/">Carnegie Mellon University</a>
 
 profile:
   align: right
   image: syn-pic-s3d.jpg
-  address: >
-    <p>Address: 4665 Forbes Ave, Pittsburgh, PA 15213</p>
-    <p>Email: yiningsh at cs.cmu.edu</p>
+  image_circular: false # crops the image to make it circular
+  more_info: >
+    <p>4665 Forbes Ave</p>
+    <p>Pittsburgh, PA 15213</p>
+    <p>yiningsh at cs.cmu.edu</p>
 
-news: false  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
+
+
+announcements:
+  enabled: false # includes a list of news items
+  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
+  limit: 5 # leave blank to include all the news in the `_news` folder
+
+latest_posts:
+  enabled: false
+  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
+  limit: 3 # leave blank to include all the blog posts
 
 ---
 

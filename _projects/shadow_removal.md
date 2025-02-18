@@ -38,7 +38,7 @@ $$I=I_l\circ (1-M)+I_s\circ M$$
 <div class="row">
 	<div class="col-2"></div>
     <div class="col-8">
-        {% responsive_image path: assets/img/shadow_removal/shadow_generate.png title: "example image" class: "img-fluid" %}
+        <img src="assets/img/shadow_removal/shadow_generate.png" title="example image" class="img-fluid" alt="example image">
     </div>
     <div class="col-2"></div>
 </div>
@@ -48,7 +48,7 @@ Since *style-GAN* generated images are lifelike and quite similar to human protr
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% responsive_image path: assets/img/shadow_removal/train_data.png title: "example image" class: "img-fluid" %}
+        <img src="assets/img/shadow_removal/train_data.png" title="example image" class="img-fluid" alt="example image">
     </div>
 </div>
 
@@ -59,7 +59,7 @@ The testing data was sythesized in the same way with training data, but with dif
 The final model can perform very well on the testing data, but there will be obvious masks on the real-world shadow portaits. 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% responsive_image path: assets/img/shadow_removal/output.png title: "example image" class: "img-fluid" %}
+        <img src="assets/img/shadow_removal/output.png" title="example image" class="img-fluid" alt="example image">
     </div>
 </div>
 <div class="caption">
@@ -67,7 +67,7 @@ The final model can perform very well on the testing data, but there will be obv
 </div>
 <div class="row">
     <div class="col">
-        {% responsive_image path: assets/img/shadow_removal/output_bad.png title: "example image" class: "img-fluid" %}
+        <img src="assets/img/shadow_removal/output_bad.png" title="example image" class="img-fluid" alt="example image">
     </div>
 </div>
 <div class="caption">
