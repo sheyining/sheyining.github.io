@@ -1,5 +1,16 @@
 ---
 ---
+@inproceedings{she2025fairsense,
+  title={FairSense: Long-Term Fairness Analysis of ML-Enabled Systems},
+  author={She, Yining and Biswas, Sumon and K{\"a}stner, Christian and Kang, Eunsuk},
+  booktitle={2025 IEEE/ACM 47th International Conference on Software Engineering (ICSE)},
+  year={2025},
+  organization={IEEE Computer Society},
+  abstract={Algorithmic fairness of machine learning (ML) models has raised significant concern in the recent years. Many testing, verification, and bias mitigation techniques have been proposed to identify and reduce fairness issues in ML models. The existing methods are model-centric and designed to detect fairness issues under static settings. However, many ML-enabled systems operate in a dynamic environment where the predictive decisions made by the system impact the environment, which in turn affects future decision-making. Such a self-reinforcing feedback loop can cause fairness violations in the long term, even if the immediate outcomes are fair. In this paper, we propose a simulation-based framework called FairSense to detect and analyze long-term unfairness in ML-enabled systems. Given a fairness requirement, FairSense performs Monte-Carlo simulation to enumerate evolution traces for each system configuration. Then, FairSense performs sensitivity analysis on the space of possible configurations to understand the impact of design options and environmental factors on the long-term fairness of the system. We demonstrate FairSense's potential utility through three real-world case studies: Loan lending, opioids risk scoring, and predictive policing.},
+  pdf={Long_term_Fairness_ICSE25.pdf},
+  html={https://arxiv.org/abs/2501.01665},
+  selected={true}
+}
 
 @INPROCEEDINGS{workshop2023,
   author= {Sumon Biswas and Yining She and Eunsuk Kang},
@@ -7,7 +18,28 @@
   title = {Towards Safe ML-Based Systems in Presence of Feedback Loops},
   location = {San Francisco, California},
   month = {December 4, 2023},
-  year = {2023}
+  year = {2023},
+  abstract={Machine learning (ML) based software is increasingly being deployed in a myriad of socio-technical systems, such as drug monitoring, loan lending, and predictive policing. Although not commonly
+considered safety-critical, these systems have a potential to cause
+serious, long-lasting harm to users and the environment due to their
+close proximity and effect on the society. One type of emerging
+problem in these systems is unintended side effects from a feedback
+loop; the decision of ML-based system induces certain changes in
+the environment, which, in turn, generates observations that are
+fed back into the system for further decision-making. When this
+cyclic interaction between the system and the environment repeats
+over time, its effect may be amplified and ultimately result in an
+undesirable. In this position paper, we bring attention to the safety
+risks that are introduced by feedback loops in ML-based systems,
+and the challenges of identifying and addressing them. In particular,
+due to their gradual and long-term impact, we argue that feedback
+loops are difficult to detect and diagnose using existing techniques
+in software engineering. We propose a set of research problems
+in modeling, analyzing, and testing ML-based systems to identify,
+monitor, and mitigate the effects of an undesirable feedback loop.},
+  pdf={SE4SafeML_workshop2023.pdf},
+  html={https://dl.acm.org/doi/pdf/10.1145/3617574.3617861},
+  selected={true}
 }
 
 @INPROCEEDINGS{9867210,
@@ -18,7 +50,9 @@
   volume={},
   number={},
   pages={633-640},
-  doi={10.23919/ACC53348.2022.9867210}}
+  doi={10.23919/ACC53348.2022.9867210},
+  html={https://ieeexplore.ieee.org/iel7/9866948/9867142/09867210.pdf}
+}
 
 
 
