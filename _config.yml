@@ -312,10 +312,7 @@ display_categories: ["external-services"] # these categories will be displayed o
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Einstein]
-  first_name: [Albert, A.]
-
-  last_name: She #Einstein
+  last_name: [She] #Einstein
   first_name: [Yining] #[Albert, A.]
 
   style: apa

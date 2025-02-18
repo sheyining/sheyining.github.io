@@ -18,7 +18,7 @@ In brief, the network is a kind of *Encoder-Decoder Model*. The key idea of the 
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        <img src="assets/img/neural_swap/pipeline.png" title="example image" class="img-fluid" alt="example image">
+        {% include figure.liquid loading="eager" path="assets/img/neural_swap/pipeline.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
