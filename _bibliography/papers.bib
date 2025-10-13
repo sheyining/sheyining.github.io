@@ -1,5 +1,15 @@
 ---
 ---
+@article{she2025rag,
+  title={RAG Makes Guardrails Unsafe? Investigating Robustness of Guardrails under RAG-style Contexts},
+  author={She, Yining and Peterson, Daniel W and Liu, Marianne Menglin and Upadhyay, Vikas and Chaghazardi, Mohammad Hossein and Kang, Eunsuk and Roth, Dan},
+  abstract={With the increasing adoption of large language models (LLMs), ensuring the safety of LLM systems has become a pressing concern. External LLM-based guardrail models have emerged as a popular solution to screen unsafe inputs and outputs, but they are themselves fine-tuned or prompt-engineered LLMs that are vulnerable to data distribution shifts. In this paper, taking Retrieval Augmentation Generation (RAG) as a case study, we investigated how robust LLM-based guardrails are against additional information embedded in the context. Through a systematic evaluation of 3 Llama Guards and 2 GPT-oss models, we confirmed that inserting benign documents into the guardrail context alters the judgments of input and output guardrails in around 11% and 8% of cases, making them unreliable. We separately analyzed the effect of each component in the augmented context: retrieved documents, user query, and LLM-generated response. The two mitigation methods we tested only bring minor improvements. These results expose a context-robustness gap in current guardrails and motivate training and evaluation protocols that are robust to retrieval and query composition.},
+  journal={Under Review},
+  arxiv={2510.05310},
+  selected={true},
+  year={2025},
+}
+
 @inproceedings{she2025fairsense,
   title={FairSense: Long-Term Fairness Analysis of ML-Enabled Systems},
   author={She, Yining and Biswas, Sumon and K{\"a}stner, Christian and Kang, Eunsuk},
