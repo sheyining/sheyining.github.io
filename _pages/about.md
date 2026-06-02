@@ -29,14 +29,14 @@ latest_posts:
 
 ---
 
-I am a forth-year PhD student in Software Engineering at [Software and Societal Systems Department](https://s3d.cmu.edu/), [Carnegie Mellon University](https://www.cmu.edu/), advised by [Dr. Eunsuk Kang](https://eskang.github.io/). I am also a part-time researcher collaborating with [OCI GenAI](https://www.oracle.com/artificial-intelligence/generative-ai/generative-ai-service/).
+I am a forth-year PhD student in Software Engineering at [Software and Societal Systems Department](https://s3d.cmu.edu/), [Carnegie Mellon University](https://www.cmu.edu/), advised by [Dr. Eunsuk Kang](https://eskang.github.io/). I am currently working at Meta CPP AI Foundation team as a PhD intern for Summer 2026.
 
 My research interests are mainly in the intersection of **Software Engineering (SE)** and **Artificial Intelligence**. I design methods and build tools to empower developers to evaluate and analyze the safety, robustness, &fairness of AI systems, and design better systems. 
 <!-- I want to leverage SE techniques to help design safe and reliable AI systems, as well as investigate new applications of AI for software development. -->
 
 My recent work focuses on safeguarding **Large Language Model Agents** by identifying provenance of agent action to systematicly prevent risky actions caused by underspecified user intent and LLM hallucination. Previously, I developed *[FairSense](https://arxiv.org/abs/2501.01665)* for proactive analysis of long-term fairness issues that specifically considers feedback loop interaction between AI system and environment.
 
-Before joining CMU, I received my bachelor of Engineering in Computer Science at [ShanghaiTech University](https://www.shanghaitech.edu.cn/eng/), where I worked with [Dr. Zhihao Jiang](https://faculty.sist.shanghaitech.edu.cn/faculty/jiangzhh/) at [Human-Cyber-Physical Systems Lab](https://faculty.sist.shanghaitech.edu.cn/faculty/jiangzhh/team/).
+I was a research intern at [OCI GenAI](https://www.oracle.com/artificial-intelligence/generative-ai/generative-ai-service/), and [Intel Lab](https://www.intel.com/content/www/us/en/research/overview.html). Before joining CMU, I received my bachelor of Engineering in Computer Science at [ShanghaiTech University](https://www.shanghaitech.edu.cn/eng/), where I worked with [Dr. Zhihao Jiang](https://faculty.sist.shanghaitech.edu.cn/faculty/jiangzhh/) at [Human-Cyber-Physical Systems Lab](https://faculty.sist.shanghaitech.edu.cn/faculty/jiangzhh/team/).
 
 If you are interested in my research and collaboration, please feel free to reach out.
 

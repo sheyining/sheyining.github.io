@@ -1,5 +1,27 @@
 ---
 ---
+@article{she2025provenanceguard,
+  title={Safeguarding LLM Agents from Misalignment through Provenance Analysis},
+  author={She, Yining and Liang, Yiliang and Kang, Eunsuk},
+  abstract={As LLM agents gain increasing access to powerful tools, ensuring that their actions are aligned with the user's intent becomes critical. When an agent's proposed tool invocation deviates from the user's intent---a phenomenon called misalignment---it may lead to harmful consequences that are difficult to undo. Existing runtime guardrails rely on an LLM-as-a-judge paradigm that lacks a systematic framework for reasoning about alignment, often producing judgments that are inconsistent or difficult to audit. Motivated by provenance analysis, we propose a provenance-based conceptual framework that formalizes misalignment detection as determining whether a proposed tool call is supported by traceable evidence in the agent's context. Building on this framework, we propose ProvenanceGuard, a multi-stage pipeline that analyzes the agent's action for three types of misalignment before the selected tool is executed and only allows the action to take place when it is considered aligned with the user's input query. We evaluated our proposed approach on two different benchmarks, Agent-SafetyBench and WorkBench, across 10 backbone LLMs. Compared to the LLM-as-a-judge baseline, ProvenanceGuard reduces error rate on misaligned traces from 42.9% to 1.8% on Agent-SafetyBench and from 32.1% to 17.3% on WorkBench, while reducing intervention burden on task-successful traces from 30.5% to 12.8% and introducing no statistically significant increase in unnecessary interventions on aligned traces. These results demonstrate that structured, provenance-based reasoning provides an effective and practical foundation for safeguarding LLM agents from misalignment.},
+  journal={Under Review},
+  pdf={ProvenanceBasedAgentGuardrail_Arxiv.pdf},
+  selected={true},
+  year={2026},
+  bibtex_show={true},
+}
+
+@article{hong2026symbolicguardrails,
+  title={Symbolic Guardrails for Domain-Specific Agents: Stronger Safety and Security Guarantees Without Sacrificing Utility},
+  author={Hong, Yining and She, Yining and Kang, Eunsuk and Timperley, Christopher S and Kästner, Christian},
+  abstract={AI agents that interact with their environments through tools enable powerful applications, but in high-stakes business settings, unintended actions can cause unacceptable harm, such as privacy breaches and financial loss. Existing mitigations, such as training-based methods and neural guardrails, improve agent reliability but cannot provide guarantees. We study symbolic guardrails as a practical path toward strong safety and security guarantees for AI agents. Our three-part study includes a systematic review of 80 state-of-the-art agent safety and security benchmarks to identify the policies they evaluate, an analysis of which policy requirements can be guaranteed by symbolic guardrails, and an evaluation of how symbolic guardrails affect safety, security, and agent success on Tau2-Bench, CAR-bench, and MedAgentBench. We find that 85\% of benchmarks lack concrete policies, relying instead on underspecified high-level goals or common sense. Among the specified policies, 74\% of policy requirements can be enforced by symbolic guardrails, often using simple, low-cost mechanisms. These guardrails improve safety and security without sacrificing agent utility. Overall, our results suggest that symbolic guardrails are a practical and effective way to guarantee some safety and security requirements, especially for domain-specific AI agents. We release all codes and artifacts at https://github.com/hyn0027/agent-symbolic-guardrails.},
+  journal={Under Review},
+  arxiv={2604.15579},
+  selected={true},
+  year={2026},
+  bibtex_show={true},
+}
+
 @article{she2025rag,
   title={RAG Makes Guardrails Unsafe? Investigating Robustness of Guardrails under RAG-style Contexts},
   author={She, Yining and Peterson, Daniel W and Liu, Marianne Menglin and Upadhyay, Vikas and Chaghazardi, Mohammad Hossein and Kang, Eunsuk and Roth, Dan},
@@ -8,6 +30,7 @@
   arxiv={2510.05310},
   selected={true},
   year={2025},
+  bibtex_show={true},
 }
 
 @inproceedings{she2025fairsense,
